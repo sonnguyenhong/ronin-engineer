@@ -1,6 +1,8 @@
 const AirportModel = require("../models/airport.model");
 const cache = require('./cache.service');
 
+const TIME_TO_LIVE_IN_SECONDS = 60
+
 class AirportService {
     static async getAirports({ limit = 5, sortBy = 'name', sortOrder = 1, page = 1, filter = {} }) {
         const skip = (page - 1) * limit;
@@ -16,7 +18,7 @@ class AirportService {
                 .skip(skip)
                 .limit(limit)
                 .lean();
-            cache.set(`airports-page-${page}-lim-${limit}`, airports);
+            cache.set(`airports-page-${page}-lim-${limit}`, airports, TIME_TO_LIVE_IN_SECONDS);
         }
 
         return airports;
