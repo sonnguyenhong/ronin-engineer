@@ -5,10 +5,9 @@ const TIME_TO_LIVE_IN_SECONDS = 60
 
 class AirportService {
     static async getAirports({ limit = 5, sortBy = 'name', sortOrder = 1, page = 1, filter = {} }) {
-        const skip = (page - 1) * limit;
-
         let airports;
 
+        const skip = (page - 1) * limit;
         airports = cache.get(`airports-page-${page}-lim-${limit}`);
         
         if(airports === undefined) {
