@@ -9,7 +9,7 @@
     "dev": "nodemon src/server.js"
   },
   "prisma": {
-    "schema": "src/domain/prisma/schema.prisma"
+    "schema": "src/infrastructure/prisma/schema.prisma"
   },
   "keywords": [],
   "author": "",

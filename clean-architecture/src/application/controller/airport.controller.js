@@ -1,5 +1,5 @@
 const SuccessResponse = require("./dto/success.response");
-const AirportService = require('../service/airport.service');
+const AirportService = require('../../domain/airport/service/airport.service');
 
 class AirportController {
     constructor(localCache) {

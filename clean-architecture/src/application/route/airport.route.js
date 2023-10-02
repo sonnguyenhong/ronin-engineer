@@ -1,7 +1,7 @@
 const express = require('express');
 
-const AirportController = require('../../controller/airport.controller');
-const localCache = require('../../infrastructure/localcache');
+const AirportController = require('../controller/airport.controller');
+const localCache = require('../../infrastructure/config/localCache');
 
 const router = express.Router();
 const airportController = new AirportController(localCache);

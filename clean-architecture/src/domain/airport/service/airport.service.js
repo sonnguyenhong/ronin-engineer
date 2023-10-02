@@ -1,5 +1,5 @@
-const { getAllAirports, createAirport } = require('../domain/repository/airport.repo');
-const { LIST_AIRPORTS_CACHE } = require('./constant');
+const { getAllAirports, createAirport } = require('../repository/airport.repo');
+const { LIST_AIRPORTS_CACHE } = require('../constant');
 
 class AirportService {
     constructor(localCache) {
