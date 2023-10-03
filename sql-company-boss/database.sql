@@ -21,4 +21,11 @@ VALUES
     ('David', 'S', 'Jenny Richards', 'Director', 32),
     ('Ashley', 'Wells', 'David S', 'Assistant', 25),
     ('Ashley', 'Johnson', null, 'Intern', 25);
-    
+
+-- Solution
+SELECT FirstName, LastName, ReportsTo, Position, Age, 
+    CASE 
+        WHEN ReportsTo = "Jenny Richards" THEN "CEO"
+        ELSE "None"
+    END AS "Boss Title"
+FROM TableCompany WHERE ReportsTo = "Jenny Richards" OR ReportsTo IS NULL;
