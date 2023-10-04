@@ -3,7 +3,7 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
 const getAllAirports = async ({ page, perPage, sortOrder, sortBy, filter }) => {
-    const airport = await prisma.airport.findMany({
+    const airports = await prisma.airport.findMany({
         where: filter,
         skip: (page-1) * perPage,
         take: perPage,
@@ -12,6 +12,16 @@ const getAllAirports = async ({ page, perPage, sortOrder, sortBy, filter }) => {
                 [sortBy]: sortOrder
             }
         ]
+    });
+
+    return airports;
+}
+
+const getAirportByCode = async ({ code }) => {
+    const airport = await prisma.airport.findUnique({
+        where: {
+            code: code
+        }
     });
 
     return airport;
@@ -31,4 +41,5 @@ const createAirport = async ({ code, name }) => {
 module.exports = {
     getAllAirports,
     createAirport,
+    getAirportByCode,
 }

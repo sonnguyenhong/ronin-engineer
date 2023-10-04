@@ -1,5 +1,7 @@
-const { getAllAirports, createAirport } = require('../repository/airport.repo');
+const { getAllAirports, createAirport, getAirportByCode } = require('../repository/airport.repo');
 const { LIST_AIRPORTS_CACHE } = require('../constant');
+const ErrorResponse = require('../../dto/error.response');
+const { HTTP_STATUS_CODE } = require('../../../infrastructure/constant');
 
 class AirportService {
     constructor(localCache) {
@@ -21,6 +23,10 @@ class AirportService {
     }
 
     createAirport = async ({ code, name }) => {
+        const existedAirport = getAirportByCode({ code });
+        if(existedAirport) {
+            throw new ErrorResponse('Airport code existed', HTTP_STATUS_CODE.BAD_REQUEST);
+        }
         const newAirport = await createAirport({ code, name });
         this.localCache.del(this.localCache.keys());
         return newAirport;

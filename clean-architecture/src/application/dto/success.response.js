@@ -1,4 +1,4 @@
-const { HTTP_STATUS_CODE, REASON_PHRASE, API_STATUS_CODE, API_RESPONSE_TYPE } = require('../constant');
+const { HTTP_STATUS_CODE, REASON_PHRASE, API_STATUS_CODE, API_RESPONSE_TYPE } = require('../../infrastructure/constant');
  
 class SuccessResponse {
     constructor({ status = HTTP_STATUS_CODE.OK, message = REASON_PHRASE.OK, data={} }) {
