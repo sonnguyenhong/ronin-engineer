@@ -3,6 +3,11 @@ const { getRolesByUserId } = require('./role.repo');
 
 const prisma = new PrismaClient();
 
+const getAllPermissions = async () => {
+    const permissions = await prisma.permission.findMany({});
+    return permissions;
+}
+
 const getPermissionsById = async ({ permissionId }) => {
     const permission = await prisma.permission.findUnique({
         where: {
@@ -34,6 +39,7 @@ const getPermissionsByUserId = async ({ userId }) => {
 }
  
 module.exports = {
+    getAllPermissions,
     getPermissionsById,
     getPermissionsByUserId,
 }
