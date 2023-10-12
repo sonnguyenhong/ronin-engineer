@@ -3,6 +3,7 @@ const AIRPORT_SERVICE = process.env.AIRPORT_SERVICE;
 const AIRPORT_ROUTE = 'airports';
 const ROLE_ROUTE = 'roles';
 const PERMISSION_ROUTE = 'permissions';
+const AUTH_ROUTE = 'auth';
 
 module.exports = {
     API_VERSION,
@@ -10,4 +11,5 @@ module.exports = {
     AIRPORT_ROUTE,
     ROLE_ROUTE,
     PERMISSION_ROUTE,
+    AUTH_ROUTE,
 }

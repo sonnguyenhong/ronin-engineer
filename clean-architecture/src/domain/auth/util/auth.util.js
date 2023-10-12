@@ -13,10 +13,11 @@ const checkMatchPassword = async ({ userPassword, hashedPassword }) => {
     return isMatchPassword;
 }
 
-const createAccessToken = ({ userId, roleId, secretKey }) => {
+const createAccessToken = ({ userId, roles, permissions, secretKey }) => {
     const payload = {
         userId, 
-        roleId,
+        roles,
+        permissions,
     };
 
     const accessToken = jwt.sign(payload, secretKey, {

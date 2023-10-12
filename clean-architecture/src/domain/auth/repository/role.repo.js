@@ -29,6 +29,18 @@ const createNewRole = async ({ roleName, permissionIds = [] }) => {
     });
 }
 
+const updateRoleById = async ({ roleId, roleName }) => {
+    const updatedRole = await prisma.role.update({
+        where: {
+            id: roleId,
+        },
+        data: {
+            roleName,
+        }
+    });
+    return updatedRole;
+}
+
 const getAllRoles = async () => {
     const roles = await prisma.role.findMany({});
     return roles;
@@ -60,6 +72,7 @@ const getRolesByUserId = async ({ userId }) => {
 
 module.exports = {
     createNewRole,
+    updateRoleById,
     getAllRoles,
     getRoleByRoleId,
     getRolesByUserId,

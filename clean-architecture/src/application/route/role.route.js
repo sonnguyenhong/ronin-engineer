@@ -8,5 +8,6 @@ const roleController = new RoleController(localCache);
 
 router.get('/', roleController.getAllRoles);
 router.post('/', roleController.createNewRole);
+router.put('/:roleId', roleController.updateRoleById);
 
 module.exports = router;
