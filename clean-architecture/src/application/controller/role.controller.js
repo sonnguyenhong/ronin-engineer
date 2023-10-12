@@ -34,6 +34,22 @@ class RoleController {
             next(err);
         }
     }
+
+    updateRoleById = async (req, res, next) => {
+        try {
+            const updatedRole = await this.roleService.updateRoleById({
+                roleId: req.params.roleId,
+                ...req.body,
+            });
+
+            return new SuccessResponse({
+                message: 'Update role successfully',
+                data: updatedRole,
+            }).send(res);
+        } catch(err) {
+            next(err);
+        }
+    }
 }
 
 module.exports = RoleController;

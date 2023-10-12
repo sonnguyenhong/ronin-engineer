@@ -1,7 +1,10 @@
 const { HTTP_STATUS_CODE } = require("../../../infrastructure/constant");
 const ErrorResponse = require("../../dto/error.response");
 const { getUserByUsername, createUser } = require("../../user/service/user.service");
-const { hashPassword, checkMatchPassword } = require("../util/auth.util");
+const { SECRET_KEY } = require("../constant");
+const { getPermissionsByUserId } = require("../repository/permission.repo");
+const { getRolesByUserId } = require("../repository/role.repo");
+const { hashPassword, checkMatchPassword, createAccessToken } = require("../util/auth.util");
 
 class AuthService {
     signUp = async ({ username, password, fullname, dateOfBirth, address }) => {
@@ -28,11 +31,22 @@ class AuthService {
         if(!existedUser) {
             throw new ErrorResponse('Username not existed', HTTP_STATUS_CODE.BAD_REQUEST);
         }
-        const isMatchPassword = await checkMatchPassword({ password, hashedPassword: existedUser.password });
+        const isMatchPassword = await checkMatchPassword({ userPassword: password, hashedPassword: existedUser.password });
         if(!isMatchPassword) {
             throw new ErrorResponse('Password is not match', HTTP_STATUS_CODE.BAD_GATEWAY);
         }
-        
+
+        const userRoles = await getRolesByUserId({ userId: existedUser.id });
+        const userPermissions = await getPermissionsByUserId({ userId: existedUser.id });
+
+        const accessToken = createAccessToken({ 
+            userId: existedUser.id,
+            roles: userRoles,
+            permissions: userPermissions,
+            secretKey: SECRET_KEY,
+        });
+
+        return accessToken;
     }
 }
 

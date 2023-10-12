@@ -3,6 +3,11 @@ const { getRolesByUserId } = require('./role.repo');
 
 const prisma = new PrismaClient();
 
+const getAllPermissions = async () => {
+    const permissions = await prisma.permission.findMany({});
+    return permissions;
+}
+
 const getPermissionsById = async ({ permissionId }) => {
     const permission = await prisma.permission.findUnique({
         where: {
@@ -10,6 +15,16 @@ const getPermissionsById = async ({ permissionId }) => {
         }
     });
     return permission;
+}
+
+const getPermissionIdsByRoleId = async ({ roleId }) => {
+    const permissionIdsOfRole = await prisma.permissionBinding.findMany({
+        where: {
+            roleId,
+        }
+    });
+    
+    return permissionIdsOfRole;
 }
 
 const getPermissionsByUserId = async ({ userId }) => {
@@ -32,8 +47,33 @@ const getPermissionsByUserId = async ({ userId }) => {
 
     return permissions;
 }
- 
+
+const createPermissionBinding = async ({ roleId, permissionId }) => {
+    const newPermissionBinding = await prisma.permissionBinding.create({
+        data: {
+            roleId,
+            permissionId,
+        }
+    });
+    
+    return newPermissionBinding;
+}
+
+const deletePermissionBinding = async ({ permissionBindingId }) => {
+    const deletedPermissionBinding = await prisma.permissionBinding.delete({
+        where: {
+            id: permissionBindingId,
+        }
+    });
+    
+    return deletedPermissionBinding;
+}
+  
 module.exports = {
+    getAllPermissions,
     getPermissionsById,
+    getPermissionIdsByRoleId,
     getPermissionsByUserId,
+    createPermissionBinding,
+    deletePermissionBinding,
 }
