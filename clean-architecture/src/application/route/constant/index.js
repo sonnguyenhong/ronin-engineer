@@ -4,6 +4,7 @@ const AIRPORT_ROUTE = 'airports';
 const ROLE_ROUTE = 'roles';
 const PERMISSION_ROUTE = 'permissions';
 const AUTH_ROUTE = 'auth';
+const USER_ROUTE = 'users';
 
 module.exports = {
     API_VERSION,
@@ -12,4 +13,5 @@ module.exports = {
     ROLE_ROUTE,
     PERMISSION_ROUTE,
     AUTH_ROUTE,
+    USER_ROUTE,
 }
