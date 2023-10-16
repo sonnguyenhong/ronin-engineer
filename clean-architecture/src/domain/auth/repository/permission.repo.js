@@ -48,6 +48,17 @@ const getPermissionsByUserId = async ({ userId }) => {
     return permissions;
 }
 
+const getPermissionBinding = async ({ roleId, permissionId }) => {
+    const permissionBinding = await prisma.permissionBinding.findFirst({ 
+        where: {
+            roleId: parseInt(roleId), 
+            permissionId: parseInt(permissionId),
+        }
+    });
+    
+    return permissionBinding;
+}
+
 const createPermissionBinding = async ({ roleId, permissionId }) => {
     const newPermissionBinding = await prisma.permissionBinding.create({
         data: {
@@ -62,7 +73,7 @@ const createPermissionBinding = async ({ roleId, permissionId }) => {
 const deletePermissionBinding = async ({ permissionBindingId }) => {
     const deletedPermissionBinding = await prisma.permissionBinding.delete({
         where: {
-            id: permissionBindingId,
+            id: parseInt(permissionBindingId),
         }
     });
     
@@ -74,6 +85,7 @@ module.exports = {
     getPermissionsById,
     getPermissionIdsByRoleId,
     getPermissionsByUserId,
+    getPermissionBinding,
     createPermissionBinding,
     deletePermissionBinding,
 }

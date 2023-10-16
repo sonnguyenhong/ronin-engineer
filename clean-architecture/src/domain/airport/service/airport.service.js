@@ -23,7 +23,7 @@ class AirportService {
     }
 
     createAirport = async ({ code, name }) => {
-        const existedAirport = getAirportByCode({ code });
+        const existedAirport = await getAirportByCode({ code });
         if(existedAirport) {
             throw new ErrorResponse('Airport code existed', HTTP_STATUS_CODE.BAD_REQUEST);
         }
