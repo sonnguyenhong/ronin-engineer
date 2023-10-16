@@ -4,7 +4,7 @@ const { getUserByUsername, createUser } = require("../../user/service/user.servi
 const { SECRET_KEY } = require("../constant");
 const { getPermissionsByUserId } = require("../repository/permission.repo");
 const { getRolesByUserId } = require("../repository/role.repo");
-const { hashPassword, checkMatchPassword, createAccessToken } = require("../util/auth.util");
+const { checkMatchPassword, createAccessToken } = require("../util/auth.util");
 
 class AuthService {
     signUp = async ({ username, password, fullname, dateOfBirth, address }) => {
@@ -13,10 +13,9 @@ class AuthService {
         if(existedUser) {
             throw new ErrorResponse('Username existed', HTTP_STATUS_CODE.BAD_REQUEST);
         }
-        const hashedPassword = await hashPassword({ password });
         const newUser = await createUser({ 
             username, 
-            password: hashedPassword, 
+            password, 
             fullname, 
             dateOfBirth, 
             address 

@@ -2,12 +2,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { ACCESSTOKEN_EXPIRES_IN, SECRET_KEY } = require('../constant');
 
-const hashPassword = async ({ password }) => {
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
-    return hashedPassword;
-}
-
 const checkMatchPassword = async ({ userPassword, hashedPassword }) => {
     const isMatchPassword = await bcrypt.compare(userPassword, hashedPassword);
     return isMatchPassword;
@@ -36,7 +30,6 @@ const verifyAccessToken = ({ accessToken }) => {
 }
 
 module.exports = {
-    hashPassword,
     checkMatchPassword,
     createAccessToken,
     verifyAccessToken,
