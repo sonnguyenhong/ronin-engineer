@@ -3,7 +3,7 @@ const { HTTP_STATUS_CODE } = require("../../../infrastructure/constant");
 const ErrorResponse = require("../../dto/error.response");
 const { ROLES_CACHE_KEY } = require("../constant");
 const { createNewRole, getAllRoles, getRoleByRoleId, updateRoleById } = require("../repository/role.repo");
-const { getPermissionIdsByRoleId, deletePermissionBinding, createPermissionBinding } = require("../repository/permission.repo");
+const { getPermissionIdsByRoleId, deletePermissionBinding, createPermissionBinding, getPermissionBinding } = require("../repository/permission.repo");
 
 class RoleService { 
     constructor(localCache) {
@@ -29,7 +29,11 @@ class RoleService {
             const oldPermissionIds = (await getPermissionIdsByRoleId({ roleId: parseInt(roleId) })).map(permission => permission.permissionId);
             for(const permissionId of oldPermissionIds) {
                 if(!permissions.includes(permissionId)) {
-                    await deletePermissionBinding({ permissionBindingId: permissionId });
+                    const permissionBinding = await getPermissionBinding({ roleId, permissionId });
+                    if(!permissionBinding) {
+                        throw new ErrorResponse('Permission Binding not found', HTTP_STATUS_CODE.NOT_FOUND);
+                    }
+                    await deletePermissionBinding({ permissionBindingId: permissionBinding.id });
                 }
             }
 

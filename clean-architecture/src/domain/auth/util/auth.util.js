@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { ACCESSTOKEN_EXPIRES_IN } = require('../constant');
+const { ACCESSTOKEN_EXPIRES_IN, SECRET_KEY } = require('../constant');
 
 const hashPassword = async ({ password }) => {
     const salt = await bcrypt.genSalt(10);
@@ -30,8 +30,14 @@ const createAccessToken = ({ userId, roles, permissions, secretKey }) => {
     return accessToken;
 }
 
+const verifyAccessToken = ({ accessToken }) => {
+    const decoded = jwt.verify(accessToken, SECRET_KEY);
+    return decoded;
+}
+
 module.exports = {
     hashPassword,
     checkMatchPassword,
     createAccessToken,
+    verifyAccessToken,
 }
