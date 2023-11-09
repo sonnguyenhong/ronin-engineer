@@ -19,11 +19,18 @@ async function main() {
             const resources = await getSystemResources();
             for(const resource of resources) {
                 try {
-                    await prisma.permission.create({
-                        data: {
+                    const existedPermission = await prisma.permission.findUnique({
+                        where: {
                             permissionName: resource,
                         }
                     });
+                    if(!existedPermission) {
+                        await prisma.permission.create({
+                            data: {
+                                permissionName: resource,
+                            }
+                        });
+                    }
                 } catch (err) {
                     console.log('Error when adding data: ', err.message);
                 }

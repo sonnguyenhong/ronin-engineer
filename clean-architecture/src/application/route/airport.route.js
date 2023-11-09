@@ -7,7 +7,7 @@ const { authMiddleware } = require('../middleware/auth.middleware');
 const router = express.Router();
 const airportController = new AirportController(localCache);
 
-router.get('/', airportController.getAllAirports);
-router.post('/', airportController.createAirport);
+router.get('/', authMiddleware, airportController.getAllAirports);
+router.post('/', authMiddleware, airportController.createAirport);
 
 module.exports = router;

@@ -11,9 +11,102 @@ datasource db {
 }
 
 model Airport {
-  id    Int     @id @default(autoincrement())
-  code  String  @unique
-  name  String
+  id      Int     @id @default(autoincrement())
+  code    String  @unique
+  name    String
+  status  AirportStatus @default(ACTIVE)
+  flightRoutes FlightRoute[]
+}
+
+model Aircraft {
+  id      Int     @id @default(autoincrement())
+  code    String  @unique
+  name    String
+  status  AircraftStatus @default(ACTIVE)
+  seats   Seat[]
+}
+
+model Seat {
+  id          Int     @id @default(autoincrement())
+  aircraftId  Int
+  seatCode    String
+  status      SeatStatus @default(AVAILABLE)
+  aircraft    Aircraft @relation(fields: [aircraftId], references: [id])  
+}
+
+model Flight {
+  id  Int @id @default(autoincrement())
+  aircraftId  Int
+  sourceAirportId Int
+  destAirportId Int
+  departureTime DateTime @db.Timestamptz(3)
+  estimatedArrivalTime  DateTime @db.Timestamptz(3)
+  actualArrivalTime DateTime @db.Timestamptz(3)
+  totalCapacity Int
+  availableCapacity Int
+  data  Json
+  status  FlightStatus @default(ONTIME)
+  routeSchedule RouteSchedule[]
+  flightSeats FlightSeat[]
+}
+
+model FlightRoute {
+  id  Int @id @default(autoincrement())
+  airportId Int
+  code  String
+  status  FlightRouteStatus @default(ACTIVE)
+  airport Airport @relation(fields: [airportId], references: [id])
+  routeSchedule RouteSchedule[]
+}
+
+model RouteSchedule {
+  id  Int @id @default(autoincrement())
+  flightRouteId Int
+  flightId  Int
+  startTime DateTime @db.Timestamptz(3)
+  finishTime  DateTime @db.Timestamptz(3)
+  status RouteScheduleStatus @default(ACTIVE)
+  flightRoute FlightRoute @relation(fields: [flightRouteId], references: [id])
+  flight Flight @relation(fields: [flightId], references: [id])
+}
+
+model Reservation {
+  id  Int @id @default(autoincrement())
+  userId  Int
+  reservationDate DateTime  @db.Timestamptz(3)
+  data  Json
+  status  ReservationStatus @default(WAITLISTED)
+  user  User  @relation(fields: [userId], references: [id]) 
+  payment Payment?
+  tickets Ticket[]
+}
+
+model Payment {
+  id  Int @id @default(autoincrement())
+  reservationId Int @unique
+  totalPrice  Int
+  status  PaymentStatus @default(PENDING)
+  reservation Reservation @relation(fields: [reservationId], references: [id])
+}
+
+model Ticket {
+  id  Int @id @default(autoincrement())
+  reservationId Int
+  seatId  Int
+  passengerName String
+  passengerId String
+  passengerData Json
+  status  TicketStatus  @default(ACTIVE)
+  reservation Reservation @relation(fields: [reservationId], references: [id])
+}
+
+model FlightSeat {
+  id  Int @id @default(autoincrement())
+  flightId  Int
+  seatCode  String
+  status  FlightSeatStatus  @default(AVAILABLE)
+  price Int
+  flight Flight @relation(fields: [flightId], references: [id])
 }
 
 model User {
@@ -23,6 +116,8 @@ model User {
   fullname      String  
   dateOfBirth   String
   address       String
+  status        UserStatus @default(ACTIVE)
+  reservations  Reservation[]
 }
 
 model Role {
@@ -45,4 +140,157 @@ model PermissionBinding {
   id  Int @id @default(autoincrement())
   roleId  Int
   permissionId  Int
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum AirportStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum AircraftStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum SeatStatus {
+  AVAILABLE
+  UNAVAILABLE
+}
+
+enum FlightStatus {
+  // This status indicates that the flight is scheduled to depart and arrive at the expected times without any delay.
+  ONTIME
+
+  // When a flight is delayed, it means that its departure or arrival time has been pushed back from the originally scheduled time. 
+  // The delay could be due to various reasons, such as weather conditions, technical issues, or operational constraints.
+  DELAYED
+
+  // This status signifies that the boarding process for the flight has commenced. 
+  // Passengers are typically called to board the aircraft during this phase.
+  BOARDING
+
+  // When the flight has taken off from its departure airport, it is considered to have departed. 
+  // This status implies that the aircraft is en route to its destination.
+  DEPARTED
+  
+  // After the flight has landed at its destination airport, it is marked as 'Arrived.' 
+  // Passengers can begin to disembark from the aircraft during this phase.
+  ARRIVED
+  
+  // If a flight is cancelled, it means that it will not operate as scheduled. 
+  // This could be due to various reasons, including severe weather conditions, technical problems, 
+  // or other operational issues that prevent the flight from taking off.
+  CANCELLED
+}
+
+enum FlightRouteStatus {
+  // This status indicates that the flight route is currently operational and available for scheduling and booking.
+  ACTIVE
+
+  // When a flight route is suspended, it means that it is temporarily inactive or not operational. 
+  // This could be due to various reasons such as seasonal changes, operational adjustments, 
+  // or other constraints that prevent the route from being serviced temporarily.
+  SUSPENDED
+
+  // Similar to the flight status, if a flight route is cancelled, it means that it will not be operational for an extended period or indefinitely. 
+  // This decision could be made due to various reasons, including market changes, business decisions, or other operational considerations.
+  CANCELLED
+
+  // This status indicates that the flight route is scheduled to be launched in the future. 
+  // It signifies that the airline or the operator has intentions to introduce this route but it might not be operational yet.
+  PLANNED
+  
+  // When a flight route is discontinued, it means that the route has been permanently ceased, and there are no plans to operate it in the future. 
+  // This decision could be due to various reasons, including changes in market demand, operational considerations, or business strategies.
+  DISCONTINUED
+}
+
+enum RouteScheduleStatus {
+  // This status indicates that the route schedule is currently operational and adhering to the published timetable.
+  ACTIVE  
+
+  // When a route schedule is labeled as upcoming, it signifies that the schedule is not yet in effect but is planned to become active in the near future. 
+  // This status is often used to denote schedules that will come into operation in the next few days, weeks, or months.
+  UPCOMING
+
+  // The expired status indicates that the schedule was once active but has reached its end date and is no longer operational. 
+  // This status helps in managing historical schedules and differentiating them from current or upcoming schedules.
+  EXPIRED
+
+  // When a route schedule is suspended, it means that it is temporarily halted or put on hold. 
+  // This could be due to various reasons such as operational adjustments, seasonal changes, 
+  // or other constraints that prevent the schedule from being followed temporarily.
+  SUSPENDED
+
+  // Similar to other statuses, if a route schedule is cancelled, it means that it will not be operational for an extended period or indefinitely. 
+  // This decision could be made due to various reasons, including changes in demand, operational considerations, or other business factors.
+  CANCELLED
+}
+
+enum ReservationStatus {
+  // This status indicates that the reservation has been made and confirmed, and the seat or service is secured for the specified date and time.
+  RESERVED 
+  
+  // If a reservation is cancelled, it means that the booking has been revoked or annulled. 
+  // This could be due to various reasons such as changes in travel plans, customer requests, 
+  // or other circumstances that lead to the cancellation of the reservation.
+  CANCELLED
+
+  // When a reservation is waitlisted, it means that the booking is currently on a waiting list, 
+  // and the availability of the seat or service is not confirmed. 
+  // Customers on the waitlist are typically queued for potential availability if there are cancellations or changes to existing reservations.
+  WAITLISTED
+
+  // The confirmed status signifies that the reservation has been verified and validated. 
+  // It indicates that the customer's booking is secured, and the seat or service is reserved for the specified date and time.
+  CONFIRMED
+
+  // When a reservation is marked as checked-in, it means that the customer has confirmed their presence for the flight or service. 
+  // This status is often used in the context of flight reservations 
+  // to indicate that the passenger has completed the check-in process and is ready for boarding.
+  CHECKEDIN
+}
+
+enum PaymentStatus {
+  // If a payment fails, it means that the transaction was not successful and the requested amount was not transferred. 
+  // This could be due to various reasons such as insufficient funds, technical issues, 
+  // or other factors that prevent the successful completion of the transaction.
+  FAILED
+  
+  // This status indicates that the payment has been initiated but is yet to be completed or verified. 
+  // It often signifies that the transaction is in progress and awaiting confirmation.
+  PENDING
+
+  // When a payment is marked as completed, it means that the transaction has been successfully processed, 
+  // and the required amount has been transferred from the payer to the payee. 
+  // This status indicates that the payment has been successfully authorized and settled.
+  SUCCESS
+}
+
+enum TicketStatus {
+  // This status indicates that the ticket is valid and currently in use or available for use. 
+  // An active ticket allows the holder to access the designated service or event.
+  ACTIVE
+  
+  // When a ticket is cancelled, it means that the ticket has been invalidated, and the associated reservation or booking has been revoked. 
+  // This could be due to various reasons, such as changes in plans, customer requests, or other circumstances that lead to the cancellation of the ticket.
+  CANCELLED
+
+  // If a ticket is marked as used, it means that the ticket has already been utilized or redeemed for the specified service or event. 
+  // This status is often used to prevent multiple uses of the same ticket and to track the usage history of the ticket.
+  USED
+  
+  // When a ticket has expired, it means that the validity period of the ticket has elapsed, and the ticket is no longer usable. 
+  // This status is commonly used for time-limited tickets or event passes to restrict access beyond the designated timeframe.
+  EXPIRED
+}
+
+enum FlightSeatStatus {
+  AVAILABLE
+  UNAVAILABLE
 }
