@@ -1,0 +1,5 @@
+const RESERVATION_CODE_LENGTH = 8;
+
+module.exports = {
+    RESERVATION_CODE_LENGTH,
+}

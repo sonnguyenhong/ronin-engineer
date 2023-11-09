@@ -36,6 +36,7 @@ model Seat {
 
 model Flight {
   id  Int @id @default(autoincrement())
+  code String @unique
   aircraftId  Int
   sourceAirportId Int
   destAirportId Int
@@ -72,6 +73,7 @@ model RouteSchedule {
 
 model Reservation {
   id  Int @id @default(autoincrement())
+  code  String  @unique
   userId  Int
   reservationDate DateTime  @db.Timestamptz(3)
   data  Json
@@ -91,6 +93,7 @@ model Payment {
 
 model Ticket {
   id  Int @id @default(autoincrement())
+  code  String  @unique
   reservationId Int
   seatId  Int
   passengerName String
