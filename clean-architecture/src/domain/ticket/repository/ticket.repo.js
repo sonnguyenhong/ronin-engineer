@@ -12,9 +12,10 @@ const getTicketsByReservationId = async ({ reservationId }) => {
     return tickets;
 };
 
-const createTicket = async ({ reservationId, seatId, passengerName, passengerId }) => {
+const createTicket = async ({ code, reservationId, seatId, passengerName, passengerId }) => {
     const newTicket = await prisma.ticket.create({
         data: {
+            code,
             reservationId,
             seatId,
             passengerName,

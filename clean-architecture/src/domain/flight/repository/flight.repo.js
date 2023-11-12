@@ -20,12 +20,22 @@ const getAllFlights = async ({ page, perPage, sortOrder, sortBy, filter }) => {
 const getFlightByCode = async ({ code }) => {
     const flight = await prisma.flight.findUnique({
         where: {
-        code: code,
+            code: code,
         },
     });
 
     return flight;
 };
+
+const getFlightById = async ({ id }) => {
+    const flight = await prisma.flight.findUnique({ 
+        where: {
+            id: id,
+        }
+    });
+
+    return flight;
+}
 
 const createFlight = async ({
     code,
@@ -34,7 +44,6 @@ const createFlight = async ({
     destAirportId,
     departureTime,
     estimatedArrivalTime,
-    actualArrivalTime,
     totalCapacity,
     availableCapacity,
     data,
@@ -48,7 +57,6 @@ const createFlight = async ({
             destAirportId,
             departureTime,
             estimatedArrivalTime,
-            actualArrivalTime,
             totalCapacity,
             availableCapacity,
             data,
@@ -59,8 +67,49 @@ const createFlight = async ({
     return newFlight;
 };
 
+const updateFlight = async ({ 
+    id,
+    version,
+    code,
+    aircraftId,
+    sourceAirportId,
+    destAirportId,
+    departureTime,
+    estimatedArrivalTime,
+    actualArrivalTime,
+    totalCapacity,
+    availableCapacity,
+    data,
+    status,
+}) => {
+    const updatedFlight = await prisma.flight.update({ 
+        where: {
+            id: id,
+            version: version,
+        },
+        data: {
+            code, 
+            aircraftId,
+            sourceAirportId,
+            destAirportId,
+            departureTime,
+            estimatedArrivalTime,
+            actualArrivalTime,
+            totalCapacity,
+            availableCapacity,
+            data,
+            status,
+            version: version + 1,
+        }
+    });
+
+    return updatedFlight;
+}
+
 module.exports = {
     getAllFlights,
     getFlightByCode,
+    getFlightById,
     createFlight,
+    updateFlight,
 };

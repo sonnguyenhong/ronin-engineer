@@ -20,8 +20,11 @@ class ReservationController {
     }
 
     createReservation = async (req, res, next) => {
-        try {   
-            const newReservation = await this.reservationService.createReservation(req.body);
+        try {
+            const newReservation = await this.reservationService.createReservation({
+                userId: req.user.userId,
+                ...req.body,
+            });
 
             return new SuccessResponse({
                 message: 'Create new reservation successfully',
