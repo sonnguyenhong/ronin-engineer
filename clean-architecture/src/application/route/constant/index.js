@@ -10,6 +10,9 @@ const FLIGHT_ROUTE = 'flight';
 const FLIGHT_SEAT = 'flight-seat';
 const RESERVATION = 'reservation';
 const TICKET = 'ticket';
+const PAYMENT = 'payment';
+const FLIGHT_ROUTE_ROUTE = 'flight-route';
+const ROUTE_SCHEDULE_ROUTE = 'route-schedule';
 
 module.exports = {
     API_VERSION,
@@ -24,4 +27,7 @@ module.exports = {
     FLIGHT_SEAT,
     RESERVATION,
     TICKET,
+    PAYMENT,
+    FLIGHT_ROUTE_ROUTE,
+    ROUTE_SCHEDULE_ROUTE,
 }

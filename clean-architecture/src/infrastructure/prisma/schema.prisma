@@ -62,6 +62,7 @@ model FlightRoute {
 
 model RouteSchedule {
   id  Int @id @default(autoincrement())
+  code  String  @unique
   flightRouteId Int
   flightId  Int
   startTime DateTime @db.Timestamptz(3)
