@@ -11,7 +11,10 @@ const {
     FLIGHT_ROUTE,
     FLIGHT_SEAT,
     RESERVATION,
-    TICKET, 
+    TICKET,
+    PAYMENT,
+    ROUTE_SCHEDULE_ROUTE,
+    FLIGHT_ROUTE_ROUTE, 
 } = require('./constant');
 
 function route(app) {
@@ -25,6 +28,9 @@ function route(app) {
     app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${FLIGHT_SEAT}`, authMiddleware, require('./flightSeat.route'));
     app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${RESERVATION}`, authMiddleware, require('./reservation.route'));
     app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${TICKET}`, authMiddleware, require('./ticket.route'));
+    app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${PAYMENT}`, authMiddleware, require('./payment.route'));
+    app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${FLIGHT_ROUTE_ROUTE}`, authMiddleware, require('./flightRoute.route'));
+    app.use(`/${AIRPORT_SERVICE}/${API_VERSION}/${ROUTE_SCHEDULE_ROUTE}`, authMiddleware, require('./routeSchedule.route'));
 }
 
 module.exports = route;

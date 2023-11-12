@@ -42,10 +42,11 @@ model Flight {
   destAirportId Int
   departureTime DateTime @db.Timestamptz(3)
   estimatedArrivalTime  DateTime @db.Timestamptz(3)
-  actualArrivalTime DateTime @db.Timestamptz(3)
+  actualArrivalTime DateTime? @db.Timestamptz(3)
   totalCapacity Int
   availableCapacity Int
-  data  Json
+  data  Json?
+  version Int @default(0)
   status  FlightStatus @default(ONTIME)
   routeSchedule RouteSchedule[]
   flightSeats FlightSeat[]
@@ -62,6 +63,7 @@ model FlightRoute {
 
 model RouteSchedule {
   id  Int @id @default(autoincrement())
+  code  String  @unique
   flightRouteId Int
   flightId  Int
   startTime DateTime @db.Timestamptz(3)
@@ -76,7 +78,7 @@ model Reservation {
   code  String  @unique
   userId  Int
   reservationDate DateTime  @db.Timestamptz(3)
-  data  Json
+  data  Json?
   status  ReservationStatus @default(WAITLISTED)
   user  User  @relation(fields: [userId], references: [id]) 
   payment Payment?
@@ -98,7 +100,7 @@ model Ticket {
   seatId  Int
   passengerName String
   passengerId String
-  passengerData Json
+  passengerData Json?
   status  TicketStatus  @default(ACTIVE)
   reservation Reservation @relation(fields: [reservationId], references: [id])
 }

@@ -21,7 +21,7 @@ const authMiddleware = (req, res, next) => {
         const resource = req.baseUrl.split('/').pop();
         const action = MAP_ACTION[req.method];
         const resourceAction = `${resource}:${action}`;
-        if(decoded.permissions.includes(resourceAction)) {
+        if(decoded.permissions.includes(resourceAction.replace('-', ''))) {
             req.user = decoded;
             return next();
         }
