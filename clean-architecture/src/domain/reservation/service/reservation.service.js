@@ -4,6 +4,8 @@ const { HTTP_STATUS_CODE } = require('../../../infrastructure/constant');
 const { randomReservationCode } = require('../util');
 const { createTicket } = require('../../ticket/repository/ticket.repo');
 const { getFlightById, updateFlight } = require('../../flight/repository/flight.repo');
+const { redisClient, lockWithRetry, unLock } = require('../../../infrastructure/config/redis');
+const { FLIGHT_ENTITY, LOCK_TTL } = require('../constant');
 
 class FlightService {
     constructor(localCache) {
@@ -34,7 +36,7 @@ class FlightService {
      */
     createReservation = async ({ userId, flightId, tickets }) => {
         const reservationCode = randomReservationCode();
-        const existedReservation = await getReservationByCode({ reservationCode });
+        const existedReservation = await getReservationByCode({ code: reservationCode });
         const numberOfTickets = tickets.length;
 
         // Check if there is no tickets booked
@@ -56,6 +58,11 @@ class FlightService {
         if(!newReservation) {
             throw new ErrorResponse('Fail to create new reservation', HTTP_STATUS_CODE.BAD_REQUEST);
         }
+        const lockKey = `${FLIGHT_ENTITY}-${flight.id}`;
+        const isLock = await lockWithRetry(lockKey, flight.id, LOCK_TTL);
+        if(!isLock) {
+            throw new ErrorResponse('Fail to acquire lock', HTTP_STATUS_CODE.BAD_REQUEST);
+        }
         const updatedFlight = await updateFlight({ 
             id: flight.id, 
             version: flight.version, 
@@ -73,7 +80,7 @@ class FlightService {
                 passengerId: ticket.passengerId,
             });
         }
-
+        await unLock(lockKey);
         return newReservation;
     }
 }

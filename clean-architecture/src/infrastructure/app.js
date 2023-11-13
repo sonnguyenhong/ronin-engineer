@@ -3,6 +3,7 @@ const express = require('express');
 
 const { DEFAULT_ERROR_STATUS, DEFAULT_ERROR_MESSAGE } = require('./constant');
 const route = require('../application/route');
+const { redisClient } = require('./config/redis');
 
 const app = express();
 app.use(express.json());
@@ -20,6 +21,11 @@ app.use((err, req, res, next) => {
         message, 
         stack
     });
-})
+});
+
+(async () => {
+    redisClient.on('error', (err) => console.log('Redis client error: ', err));
+    await redisClient.connect();
+})();
 
 module.exports = app;
