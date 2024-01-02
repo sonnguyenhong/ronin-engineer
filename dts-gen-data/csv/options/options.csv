@@ -1,0 +1,2947 @@
+Option,QuestionId,Option Image,IsCorrect
+'Give an arm signal as well as using your indicators',1,null,
+'Check road markings to see that U-turns are permitted',1,null,
+'Look over your shoulder for a final check',1,null,1
+'Select a higher gear than normal',1,null,
+'Move to the right',2,null,
+'Slow down',2,null,1
+'Change gear',2,null,
+'Keep to 30 mph',2,null,
+'Just after a bend',3,null,
+'In a one-way street',3,null,
+'On a 30 mph road',3,null,
+'Approaching a dip in the road',3,null,1
+'Heavy vehicles should take the next road on the left to avoid a weight limit',4,null,
+'The road ahead bends to the left',4,null,
+'Overtaking traffic should move back to the left',4,null,1
+'The road ahead has a camber to the left',4,null,
+'Stop immediately',5,null,
+'Answer it immediately',5,null,
+'Leave it until you have stopped in a safe place',5,null,1
+'Pull up at the nearest kerb',5,null,
+'To help you choose the correct lane',6,null,
+'To help you keep the correct separation distance',6,null,
+'To make you aware of your speed',6,null,1
+'To tell you the distance to the roundabout',6,null,
+'Accelerate hard',7,null,
+'Maintain your speed',7,null,
+'Be ready to stop',7,null,1
+'Brake hard',7,null,
+'Sound the horn',8,null,
+'Use the mirrors',8,null,1
+'Select a higher gear',8,null,
+'Flash the headlights',8,null,
+'You'll be able to corner more quicky',9,null,
+'You'll help the large vehicle to stop more easily',9,null,
+'You'll give the drvier a chance to see you in their morrors',9,null,1
+'You'll keep out of the wind better',9,null,
+'Because you'll need to accelerate out of danger',10,null,
+'To assess how your actions will affect the traffic behind',10,null,1
+'Because you'll need to brake sharply and stop',10,null,
+'To check what's happening on the road ahead',10,null,
+'Stop and then move forward slowly and carefully for a clear view',11,null,1
+'Move quickly to where you can see so you only block traffic from one direction',11,null,
+'Wait for a pedestrian to let you know when it's safe for you to emerge',11,null,
+'Turn your vehicle around immediately and find another junction to use',11,null,
+'Your view could be obstructed',12,null,1
+'Your sun visor might get tangled',12,null,
+'Your radio reception might be affected',12,null,
+'Your windscreen could mist up more easily',12,null,
+'Play some loud music',13,null,
+'Stop on the hard shoulder for a rest',13,null,
+'Drive faster to complete your journey sooner',13,null,
+'Leave the motorway and stop in a safe place',13,null,1
+'To make your dials easier to see',14,null,
+'So others can see you more easily',14,null,1
+'So that you blend in with other drivers',14,null,
+'Because the street lights are lit',14,null,
+'Using a mobile phone',15,null,1
+'Using the windscreen wipers',15,null,
+'Using the demisters',15,null,
+'Using the mirrors',15,null,
+'When you're receiving a call',16,null,
+'When you've parked safely',16,null,1
+'When you're drivng at less than 30 mph',16,null,
+'When your car has automatic transmission',16,null,
+'Apply the parking brake and footbrake together',17,null,
+'Keep both hands on the steering wheel',17,null,1
+'Select reverse gear',17,null,
+'Give an arm signal',17,null,
+'Give a signal after moving off',18,null,
+'Look around before moving off',18,null,1
+'Look around after moving off',18,null,
+'Use the exterior mirrors only',18,null,
+'Sound your horn as you pass',19,null,
+'Keep close to them as you pass',19,null,
+'Leave them plenty of room as you pass',19,null,1
+'Change down one gear before you pass',19,null,
+'When you're driving on a motorway',20,null,
+'When you're driving on a dual carriageway',20,null,
+'When you're approaching a one-way street',20,null,
+'When you're approaching bends and junctions',20,null,1
+'Open the window to look behind',21,null,
+'Open the door to look behind',21,null,
+'Look in the nearside mirror',21,null,
+'Ask someone to guide you',21,null,1
+'An area covered by your right-hand mirror',22,null,
+'An area not covered by your headlights',22,null,
+'An area covered by your left-hand mirror',22,null,
+'An area not visible to the driver',22,null,1
+'It will improve your safely',23,null,
+'It will increase you concentration',23,null,
+'It will reduce your view',23,null,
+'It will divert your attention',23,null,1
+"'Stop, apply the parking brake and then select a low gear'",24,null,
+'Position your vehicle well to the left of the side road',24,null,
+'Check that the central reservation is wide enough for your vehicle',24,null,1
+'Make sure that you leave enough room for a vehicle behind',24,null,
+'Lorries',25,null,
+'Buses',25,null,
+'Motorcyclists',25,null,1
+'Coaches',25,null,
+'Turn it off while you're driving in built-up areas',26,null,
+'Choose a voice that you find calming',26,null,
+'Only set the destination when you're lost',26,null,
+'Set it before starting your journey',26,null,1
+'Stop and wait for the green light',27,null,
+'Stop and wait for the red light',27,null,
+'Give way to pedestrians waiting to cross',27,null,
+'Give way to pedestrians already on the crossing',27,null,1
+'Another vehicle may be coming',28,null,1
+'They may not be looking',28,null,
+'It's safer for you to carry on',28,null,
+'They may not be ready to cross',28,null,
+'Your engine will overheat',29,null,
+'Your mirrors will need adjusting',29,null,
+'Your view of the road ahead will be restricted',29,null,1
+'Your satnav will be confused',29,null,
+'Your brakes will overheat.',30,null,
+'Your fuel consumption will be increased.',30,null,
+'Your engine will overheat.',30,null,
+'Your view ahead will be reduced.',30,null,1
+'One second',31,null,
+'Two seconds',31,null,
+'Three seconds',31,null,
+'Four seconds',31,null,1
+'Speed up',32,null,
+'Slow down',32,null,1
+'Hold your speed',32,null,
+'Change direction',32,null,
+'Motorway maintenance ',33,null,
+'Bomb disposal ',33,null,1
+'Snow plough',33,null,
+'Breakdown recovery ',33,null,
+'Pull over as soon as it's safe to do so',34,null,1
+'Accelerate hard to get away from it',34,null,
+'Maintain your speed and course',34,null,
+'Brake harshly and stop well out into the road',34,null,
+'Fire engine',35,null,
+'Road gritter',35,null,
+'Ambulance',35,null,
+'Doctor's car',35,null,1
+'Tram drivers',36,null,1
+'Bus drivers',36,null,
+'Lorry drivers',36,null,
+'Taxi drivers',36,null,
+'Cars',37,null,
+'Cycles',37,null,1
+'Buses',37,null,
+'Lorries',37,null,
+'To alert others to your presence',38,null,1
+'To allow you right of way',38,null,
+'To greet other road users',38,null,
+'To signal your annoyance',38,null,
+'In the right-hand lane',39,null,1
+'In the left-hand lane',39,null,
+"'In either lane, depending on the traffic'",39,null,
+'Just left of the centre line',39,null,
+'To allow other drivers to pull out in front of you',40,null,
+'To give a better view into the road that you're joining',40,null,
+'To help other road users know what you intend to do',40,null,1
+'To allow drivers to pass you on the right',40,null,
+'Toucan',41,null,1
+'Puffin',41,null,
+'Pelican',41,null,
+'Zebra',41,null,
+'Accelerate to make a gap behind you',42,null,
+'Touch the brakes sharply to show your brake lights',42,null,
+'Maintain your speed to prevent the vehicle from overtaking',42,null,
+'Allow the vehicle to overtake',42,null,1
+'When showing that you're giving way',43,null,
+'When showing that you're about to turn',43,null,
+'When telling them that you have right of way',43,null,
+'When letting them know that you're there',43,null,1
+'Accelerate and keep to the middle',44,null,
+'Slow down and keep to the right  ',44,null,
+'Accelerate and look to the left',44,null,
+'Slow down and look both ways ',44,null,1
+'Before restarting the engine after it has stalled',45,null,1
+'When checking your gap from the vehicle in front',45,null,
+'Before using the 'Mirrors - Signal - Manoeuvre' routine',45,null,
+'When traffic lights change to green',45,null,
+'Steady red',46,null,
+'Flashing amber',46,null,
+'Steady amber',46,null,1
+'Flashing green',46,null,
+'Ignore the driver behind and continue to travel within the speed limit',47,null,
+"'Slow down, gradually increasing the gap between you and the vehicle in front'",47,null,1
+'Signal left and wave the driver behind to come past',47,null,
+'Move over to a position just left of the centre line of the road',47,null,
+'Full-beam headlights',48,null,
+'Sidelights',48,null,
+'Dipped headlights',48,null,1
+'Fog lights',48,null,
+'Slow down and left the vehicle turn',49,null,1
+"'Drive on, keeping to the left'",49,null,
+'Overtake on the right of it',49,null,
+'Hold your speed and sound your horn',49,null,
+'Accelerate to get closer to the red car',50,null,
+'Give a long blast on the horn',50,null,
+'Drop back to leave the correct separation distance',50,null,1
+'Flash your headlights several times',50,null,
+'Use the parking brake and release the footbrake',51,null,1
+'Keep your foot on the footbrake',51,null,
+'Balance the clutch with the accelerator',51,null,
+'Use the parking brake and footbrake together',51,null,
+"'Move loser to the car ahead, so the driver behind has no room to overtake'",52,null,
+'Wave the driver behind to overtake when it's safe.',52,null,
+'Keep a steady course and allow the driver behind to overtake',52,null,1
+'Accelerate to get away from the driver behind.',52,null,
+'The lane isn't in operation.',53,null,
+'The lane is only in operation at peak times.',53,null,
+'The lane is in operation 24 hours a day.',53,null,1
+'The lane is only in operation in daylight hours.',53,null,
+'Ignore them as they have no authority',54,null,
+'Stop and switch off your engine',54,null,1
+'Continue on but drive slowly',54,null,
+'Try to get past quickly',54,null,
+'Sound your horn as a warning',55,null,
+'Go past as quickly as possible',55,null,
+'Flash your headlights as a warning',55,null,
+'Go past slowly and carefully',55,null,1
+'Give way to older and infirm people only',56,null,
+'Slow down and prepare to stop',56,null,1
+'Use your headlights to indicate they can cross',56,null,
+'Wave at them to cross the road',56,null,
+'Swerve past it and sound your horn',57,null,
+'Flash your headlights and drive up close behind',57,null,
+'Slow down and be ready to stop',57,null,1
+'Accelerate past it immediately',57,null,
+'When you start to edge forward onto the crossing',58,null,
+'When the pedestrians have cleared the crossing',58,null,1
+'When the pedestrians push the button on the far side of the crossing',58,null,
+'When a driver from the opposite direction reaches the crossing',58,null,
+'',59,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/59.A.png',1
+'',59,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/59.B.png',
+'',59,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/59.C.png',
+'',59,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/59.D.png',
+'When it's raining',60,null,
+'When it's dry',60,null,1
+'When it's icy',60,null,
+'When it's foggy',60,null,
+'Flash your headlights',61,null,
+'Use dipped headlights',61,null,1
+'Switch off your headlights',61,null,
+'Use full-beam headlights',61,null,
+'Keep well out to stop vehicles overtaking dangerously',62,null,
+'Wave the vehicles behind to come past you if you think they can overtake quickly',62,null,
+"'Pull in when you can, to let the vehicles behind overtake'",62,null,1
+'Give a left signal when it's safe for vehicles to overtake you',62,null,
+'It can make the engine difficult to start',63,null,
+'It can make the roads slippery for other road users',63,null,1
+'It can improve your vehicle's fuel consumption',63,null,
+'It can increase the level of exhaust emissions',63,null,
+'Check that your tank is only three-quarters full',64,null,
+'Check that you've used a locking filler cap',64,null,
+'Check that your fuel gauge is working',64,null,
+'Check that your filler cap is securely fastened',64,null,1
+'Considerate',65,null,
+'Defensive',65,null,
+'Competitive',65,null,1
+'Responsible',65,null,
+'The vehicle's stopping distance would increase',66,null,1
+'The flash rate of the vehicle's indicators would increase',66,null,
+'The vehicle's gear change mechanism would become stiff',66,null,
+'The vehicle's headlights would aim high',66,null,
+'Between 10.00 pm and 6.00 am in a built-up area',67,null,
+'At any time in a built-up area',67,null,
+'Between 11.30 pm and 7.00 am in a built-p area',67,null,1
+'Between 11.30 pm and 6.00 am on any road',67,null,
+'It's powered by gravity',68,null,
+'It's powered by diesel',68,null,
+'It's powered by electricity',68,null,1
+'It's powered by unleaded petrol ',68,null,
+'To raise the speed limits',69,null,
+'To help the traffic flow',69,null,1
+'To provide better parking',69,null,
+'To allow lorries to load more freely',69,null,
+'To separate lanes of traffic',70,null,1
+'To increase traffic speed',70,null,
+'To allow pedestrians to cross',70,null,
+'To reduce traffic speed',70,null,
+'To reduce fuel consumption',71,null,
+'To reduce the risk of fire',71,null,
+'To reduce harmful exhaust gases',71,null,1
+'To reduce engine wear',71,null,
+'After any lengthy journey',72,null,
+'After travelling at high speed',72,null,
+'When tyres are hot',72,null,
+'When tyres are cold',72,null,1
+'When its tyres are under-inflated',73,null,1
+'When its tyres are of different makes',73,null,
+'When its tyres are over-inflated',73,null,
+'When its tyres are new',73,null,
+'Bury it in your garden.',74,null,
+'Put it in the dustbin.',74,null,
+'Take it to a local-authority disposal site.',74,null,1
+'Leave it on waste land.',74,null,
+'Poor steering control',75,null,
+'Accelerating around bends',75,null,
+'Staying in high gears',75,null,
+'Harsh braking and accelerating',75,null,1
+'Battery acid',76,null,
+'Distilled water',76,null,1
+'Engine oil',76,null,
+'Engine coolant',76,null,
+'When there are continuous white lines in the middle of the road',77,null,
+'When the speed limit exceeds 30 mph',77,null,1
+'When you're facing oncoming traffic',77,null,
+'When you're near a bus stop',77,null,
+'Only use it for short journeys',78,null,
+'Don't service it',78,null,
+'Drive faster than normal',78,null,
+'Keep engine revs low',78,null,1
+'A faulty gearbox',79,null,
+'A faulty braking system',79,null,1
+'A faulty electrical system',79,null,
+'A faulty exhaust system',79,null,
+'The top of the battery',80,null,
+'Halfway up the battery',80,null,
+'Just below the cell plates',80,null,
+'Just above the cell plates',80,null,1
+'Check your vehicle handbook.',81,null,
+'Ask your local garage.',81,null,
+'Use a route planner on the internet.',81,null,1
+'Consult a travel agent.',81,null,
+'You'll have an easier journey.',82,null,1
+'You'll have a more stressful journey.',82,null,
+'Your journey time will be longer.',82,null,
+'It will cause more traffic congestion.',82,null,
+'Your journey will use more fuel',83,null,
+'Your journey will take longer',83,null,
+'Your journey will be more hazardous',83,null,
+'Your journey will have fewer delays. ',83,null,1
+'Your original route may be blocked',84,null,1
+'Your maps may have different scales',84,null,
+'You may find you hvae to pay a congestion charge',84,null,
+'You may get held up by a tractor',84,null,
+'Allow plenty of time for the trip.',85,null,1
+'Plan to travel at busy times.',85,null,
+'Avoid roads with the national speed limit.',85,null,
+'Prevent other drivers from overtaking.',85,null,
+'Reduced pollution',86,null,
+'Increased fuel consumption',86,null,1
+'Reduced exhaust emissions',86,null,
+'Increased road safety',86,null,
+'Anti-freeze level',87,null,
+'Brake-fluid level',87,null,1
+'Battery-water level',87,null,
+'Radiator-coolant level',87,null,
+'Check the brake-fluid level.',88,null,
+'Check the footbrake free play.',88,null,
+'Check that the parking brake is released.',88,null,
+'Have the brakes checked immediately.',88,null,1
+'A fault in the braking system',89,null,1
+'The engine oil is low',89,null,
+'A rear light has failed',89,null,
+'Your seat belt isn't fastened',89,null,
+'To prevent wear on the pedals',90,null,
+'To maintain control of the pedals ',90,null,1
+'To enable you to adjust your seat',90,null,
+'To enable you to walk for assistance if you break down',90,null,
+'An air-sprung seat',91,null,
+'Anti-lock brakes',91,null,
+'A collapsible steering wheel',91,null,
+'A properly adjusted head restraint',91,null,1
+'The tyres are worn',92,null,
+'The tyres are under inflated',92,null,
+'The vehicle is on soft ground ',92,null,
+'The shock absorbers are worn ',92,null,1
+'There will be less wind noise',93,null,
+'The engine will use more oil',93,null,
+'The car will accelerate faster',93,null,
+'Fuel consumption will increase',93,null,1
+"'If they have any large, deep cuts in the side wall'",94,null,
+'If they're of different makes',94,null,1
+'If they have different tread patterns',94,null,
+'Default Answer D',94,null,
+'1 mm',95,null,
+'1.6 mm',95,null,1
+'2.5 mm',95,null,
+'4 mm',95,null,
+'The children's parents',96,null,
+"'You, the driver'",96,null,1
+'The front-seat passenger',96,null,
+'The children',96,null,
+'By accelerating harshly',97,null,
+'By accelerating gently',97,null,1
+'By using leaded gently',97,null,
+'By riving faster',97,null,
+'By having your vehicle serviced regularly',98,null,1
+'By revving the engine in the lower gears',98,null,
+'By keeping an empty roof rack on your vehicle',98,null,
+'By driving at higher speeds where possible',98,null,
+'Drive in a bus lane',99,null,
+'Use a car with a smaller engine',99,null,
+'Walk or cycle on short journeys',99,null,1
+'Travel by car at all times',99,null,
+'Reducing your speed',100,null,
+'Driving on motorways',100,null,
+'Using different brands of fuel ',100,null,
+'Under-inflated tyres',100,null,1
+'The gearbox',101,null,
+'The transmission',101,null,
+'The door locks',101,null,
+'The seat belts',101,null,1
+'About 5%',102,null,
+'About 15%',102,null,1
+'About 75%',102,null,
+'About 100%',102,null,
+'Increase the pressure in your tyres.',103,null,
+'Have the brakes checked as soon as possible.',103,null,1
+'Change gear and pump the brake pedal.',103,null,
+'Use your parking brake at the same time.',103,null,
+'The steering will pull to one side',104,null,
+'The steering will vibrate',104,null,1
+'The brakes will fail',104,null,
+'The tyres will deflate',104,null,
+'The gearbox',105,null,
+'The engine',105,null,
+'The brakes',105,null,
+'The tyres',105,null,1
+'Put them in a carrier bag',106,null,
+'Park near a school entrance',106,null,
+'Lock them out of sight',106,null,1
+'Park near a bus stop',106,null,
+'Always keeping the headlights on',107,null,
+'Fitting reflective glass windows',107,null,
+'Always keeping the interior light on',107,null,
+'Etching the registration number on the windows',107,null,1
+'The car dealer's details',108,null,
+'The owner's manual',108,null,
+'The service record',108,null,
+'The vehicle registration document',108,null,1
+'Park near a busy junction',109,null,
+'Park in a housing estate',109,null,
+'Lock it and remove the key',109,null,1
+'Leave the left indicator on',109,null,
+'Driving more slowly',110,null,1
+'Accelerating rapidly',110,null,
+'Late and heavy braking',110,null,
+'Staying in lower gears',110,null,
+'Take it to a local-authority site',111,null,1
+'Pour it down a drain',111,null,
+'Tip it into a hole in the ground',111,null,
+'Put it in your dustbin',111,null,
+'To recover the cost of expensive garage equipment',112,null,
+'To help protect the environment against pollution',112,null,1
+'To discover which fuel supplier is used the most ',112,null,
+'To make sure diesel and petrol engines emit the same fumes',112,null,
+'Use narrow side streets',113,null,
+'Brake heavily',113,null,
+'Use busy routes',113,null,
+'Anticipate well ahead',113,null,1
+'Your vehicle will be cheaper to insure.',114,null,
+'Your vehicle tax will be lower.',114,null,
+'Your vehicle will remain reliable.',114,null,1
+'Your journey times will be reduced.',114,null,
+'Maintain a reduced speed throughout.',115,null,1
+'Accelerate quickly between the humps.',115,null,
+'Always keep to the maximum legal speed.',115,null,
+'Drive slowly at school times only.',115,null,
+'Before a long journey',116,null,1
+'When the engine is hot',116,null,
+'Early in the morning',116,null,
+'Every time you drive the car',116,null,
+"'No, not unless you stay with your car'",117,null,
+"'Yes, in order to drop off a passenger'",117,null,
+"'Yes, if you don't block people from crossing'",117,null,
+"'No, not under any circumstances'",117,null,1
+'Leave the engine running',118,null,
+'Switch the engine off but leave the key in',118,null,
+'Lock it and remove the key',118,null,1
+'Park near a traffic warden',118,null,
+'It makes it easy to find your car',119,null,
+'It helps deter thieves',119,null,1
+'It stops the car being exposed to bad weather',119,null,
+'It doesn't cost anything to park here',119,null,
+'Alongside a parking meter',120,null,
+'In front of a property entrance',120,null,1
+'On your driveway',120,null,
+'In a marked parking space',120,null,
+'To make you more comfortable',121,null,
+'To help you avoid neck injury ',121,null,1
+'To help you relax',121,null,
+'To help you maintain your driving position',121,null,
+'Avoid using the cruise control',122,null,
+'Use the air conditioning whenever you drive',122,null,
+'Use the gears to slow the vehicle',122,null,
+'Avoid making a lot of short journeys',122,null,1
+'Drive more quickly',123,null,
+'Over-rev in a low gear',123,null,
+'Walk or cycle',123,null,1
+'Drive short journeys',123,null,
+'Take all valuables with you',124,null,1
+'Park near a taxi rank',124,null,
+'Place any valuables on the floor',124,null,
+'Park near a fire station',124,null,
+'Park in an unlit area',125,null,
+'Leave the radio turned on',125,null,
+'Park near a busy junction',125,null,
+'Install a security-coded radio',125,null,1
+'Leave it in a well-lit-area',126,null,1
+'Park in a quiet side road',126,null,
+'Don't engage the steering lock',126,null,
+'Park in a poorly lit area',126,null,
+'Being a member of a vehicle breakdown organisation',127,null,
+'Registering with a Vehicle Watch scheme',127,null,1
+'Passing an advanced driving test',127,null,
+'Taking car maintenance classes',127,null,
+'In the fuel tank',128,null,
+'In the air filter',128,null,
+'On the cooling system',128,null,
+'On the exhaust system',128,null,1
+'Reduction in journey times by about 15%',129,null,
+'Increase in fuel consumption by about 15%',129,null,
+'Reduction in fuel consumption by about 15%',129,null,1
+'Increase in journey times by about 15%',129,null,
+'Using lower gears as often as possible',130,null,
+'Accelerating sharply in each gear',130,null,
+'Using each gear in turn',130,null,
+'Missing out some gears',130,null,1
+'Through the legal enforcement of speed regulations',131,null,
+'By increasing the number of cars on the road',131,null,
+'Through increased fuel bills',131,null,
+'By reducing exhaust emissions ',131,null,1
+'Increased fuel consumption',132,null,
+'Improved road safety',132,null,1
+'Damage to the environment',132,null,
+'Increased exhaust emissions',132,null,
+'1 mm',133,null,
+'1.6 mm',133,null,1
+'2 mm',133,null,
+'2.6 mm',133,null,
+'When you're braking',134,null,
+'When you're coasting',134,null,
+'When you're accelerating',134,null,1
+'When you're turning sharply',134,null,
+'When they're under 14 years old',135,null,
+'When they're under 1.5 metres (5 feet) in height',135,null,
+'When they're sitting in the rear seat',135,null,
+'When they're exempt for medical reasons',135,null,1
+'An adult passenger',136,null,
+'The children',136,null,
+"'You, the driver'",136,null,1
+'Your friend',136,null,
+'The clutch pedal will lock',137,null,
+'The air intake will become blocked',137,null,
+'The timing belt will slip ',137,null,
+'The oil seals will leak ',137,null,1
+'Behind the passenger seat',138,null,
+'Using an adult seat belt',138,null,1
+'Sharing a belt with an adult',138,null,
+'Between two other children',138,null,
+'They must use an adult seat belt',139,null,
+'They must be able to fasten their own seat belt. ',139,null,
+'They must use a suitable child restraint',139,null,1
+'They must be able to see clearly out of the front window',139,null,
+'Switch off the engine',140,null,1
+'Apply the steering lock',140,null,
+'Switch off the radio',140,null,
+'Use your headlights',140,null,
+'Deactivate the airbag',141,null,1
+'Turn the seat to face sideways',141,null,
+'Ask a passenger to hold the baby',141,null,
+'Put the child in an adult seat belt',141,null,
+'If you'll be parking for less than five minutes',142,null,
+'If the battery keeps going flat',142,null,
+'When parked in a 20 mph zone',142,null,
+'Never if you're away from the vehicle',142,null,1
+'The ESC system has activated',143,null,1
+'The ESC system has a fault',143,null,
+'The ESC system is running a routine test',143,null,
+'The ESC system is switched off',143,null,
+'Two times',144,null,
+'Three times',144,null,
+'Five times',144,null,
+'Ten times',144,null,1
+'Using the brakes',145,null,
+'Moving off on a hill',145,null,
+'Turning into a narrow road',145,null,
+'Passing pedal cyclists',145,null,1
+'To improve your view of the road',146,null,1
+'To overcome the effect of the road's slop',146,null,
+'To let faster traffic from behind overtake',146,null,
+'To be positioned safely if you skid',146,null,
+'Accelerate and keep to a high speed for a short time',147,null,
+'Go slowly while gently applying the brakes',147,null,1
+'Avoid using the brakes at all for a few miles',147,null,
+'Stop for at least an hour to allow them time to dry',147,null,
+'The suspension',148,null,
+'The exhaust emissions',148,null,
+'The fuel consumption',148,null,
+'The tyre grip',148,null,1
+'On a narrow country lane',149,null,
+'On an open stretch of road',149,null,1
+'On a busy stretch of road',149,null,
+"'On a long, straight road'",149,null,
+'Flash your headlights as a warning',150,null,
+'Try to overtake safely as soon as you can',150,null,
+'Drop back to regain a safe distance',150,null,1
+'Stay close to the other vehicle until it moves on',150,null,
+'Increase your distance from the vehicle in front',151,null,1
+'Brake sharply',151,null,
+'Switch on your hazard warning lights',151,null,
+'Move onto the hard shoulder and stop',151,null,
+'Keep close to the vehicle in front',152,null,
+'Use main beam instead of dipped headlights',152,null,
+'Keep up with the faster vehicles',152,null,
+'Keep a safe distance from the vehicle in front',152,null,1
+'Choose an appropriate lane in good time',153,null,1
+'Switch lanes to make better progress',153,null,
+'Increase speed to get through the contraflow more quickly',153,null,
+'Follow other motorists closely to avoid long queues',153,null,
+'Drive at a slow speed in the highest gear possible',154,null,1
+'Use the parking brake if the wheels start to slip',154,null,
+'Brake gently and repeatedly',154,null,
+'Drive in a low gear at all times',154,null,
+'The weather',155,null,
+'The driver',155,null,1
+'The vehicle',155,null,
+'The road',155,null,
+'Coast into the bend',156,null,
+'Apply your parking brake',156,null,
+'Firmly use your footbrake',156,null,
+'Slow down gently',156,null,1
+'The aerial',157,null,
+'The windows',157,null,1
+'The bumper',157,null,
+'The boot',157,null,
+'Using the car's lowest gear',158,null,
+'Using a higher gear than normal',158,null,1
+'Using a high engine speed',158,null,
+'Using the parking brake and footbrake together',158,null,
+'Brake firmly and quickly',159,null,
+'Be ready to steer sharply',159,null,
+'Use sidelights only',159,null,
+'Brake gently in plenty of time',159,null,1
+'Improved grip on the road',160,null,1
+'Lower fuel consumption',160,null,
+'Shorter stopping distances',160,null,
+'Improved passenger comfort',160,null,
+'Select a high gear and use the brakes carefully',161,null,
+'Select a high gear and use the brakes firmly',161,null,
+'Select a low gear and use the brakes carefully',161,null,1
+'Select a low gear and avoid using the brakes',161,null,
+'Turn the steering wheel towards the kerb',162,null,1
+'Park close to the bumper of another car',162,null,
+'Park with two wheels on the kerb',162,null,
+'Turn the steering wheel away from the kerb',162,null,
+'Move across to the left-hand side of the road',163,null,
+'Wait for any pedestrians to cross',163,null,
+'Check your mirror and slow down',163,null,1
+'Stop and check both pavements',163,null,
+'Dry',164,null,
+'Loose',164,null,1
+'Firm',164,null,
+'Smooth',164,null,
+'Slowly and gently',165,null,
+'Slowly but firmly',165,null,
+'Rapidly and gently',165,null,
+'Rapidly and firmly',165,null,1
+'Check your tyre pressures',166,null,
+'Switch on your hazard warning lights',166,null,
+'Accelerate briskly',166,null,
+'Test your brakes',166,null,1
+'There's less wind noise',167,null,
+'There's less tyre noise',167,null,1
+'There's less transmission noise',167,null,
+'There's less engine noise',167,null,
+'The engine will stall',168,null,
+'The steering will feel very heavy',168,null,
+'The engine noise will increase ',168,null,
+'The steering will feel very light ',168,null,1
+'In the rain',169,null,1
+'In fog',169,null,
+'At night',169,null,
+'In strong winds',169,null,
+'A two-second time gap ',170,null,1
+'One car length',170,null,
+'Two metres (6 feet 6 inches)',170,null,
+'Two car lengths',170,null,
+'By changing to a lower gear',171,null,1
+'By selecting reverse gear',171,null,
+'By changing to a higher gear',171,null,
+'By selecting neutral gear',171,null,
+'Keep pumping the footbrake to prevent skidding',172,null,
+'Brake normally but grip the steering wheel tightly',172,null,
+'Brake promptly and firmly until you've stopped',172,null,1
+'Apply the parking brake to reduce the stopping distance',172,null,
+'Hazard warning lights',173,null,
+'Dipped headlights',173,null,1
+'Rear fog lights',173,null,
+'Sidelights',173,null,
+'Improvement in control',174,null,
+'Easier steering',174,null,
+'Reduction in control',174,null,1
+'Increased fuel consumption',174,null,
+'Wear a hi-visibility jacket',175,null,
+'Have a caffeinated drink',175,null,
+'Allow more time',175,null,1
+'Reduce your tyre pressures',175,null,
+'Pass closely',176,null,
+'Pass very slowly',176,null,
+'Pass widely',176,null,1
+'Pass immediately',176,null,
+'On a motorway sign',177,null,
+'On a railway bridge',177,null,
+'On a large goods vehicle',177,null,1
+'On a diversion sign',177,null,
+'Vehicles turning right',178,null,
+'Vehicles doing U-turns',178,null,
+'The cyclist crossing the road',178,null,1
+'Parked cars around the corner',178,null,
+'The parked car (arrowed A)',179,null,1
+'The pedestrian waiting to cross (arrowed B)',179,null,
+'The moving car (arrowed C)',179,null,
+'The car turning (arrowed D)',179,null,
+'Continue at the same speed',180,null,
+'Sound the horn',180,null,
+'Drive through quickly',180,null,
+'Slow down and get ready to stop',180,null,1
+'The uneven road surface',181,null,
+'Traffic following behind',181,null,
+'Doors opening on parked cars',181,null,1
+'Empty parking spaces',181,null,
+'The road will go steeply uphill',182,null,
+'The road will go steeply downhill',182,null,
+'The road will bend sharply to the left',182,null,1
+'The road will bend sharply to the right',182,null,
+'Try to overtake before the cyclist gets to the junction',183,null,
+'Flash your headlights at the cyclist',183,null,
+'Slow down and allow the cyclist to turn',183,null,1
+'Rev your engine so the cyclist knows you're following behind',183,null,
+'The road surface is poor',184,null,
+'The footpath is narrow',184,null,
+'The kerbs are high',184,null,
+'The view is restricted',184,null,1
+'Bicycles',185,null,
+'Buses',185,null,1
+'Motorcycles',185,null,
+'Cars',185,null,
+'Lorry ',186,null,1
+'Bicycle',186,null,
+'Car',186,null,
+'Motorcycle',186,null,
+"'Stop behind the line, then edge forward to see clearly'",187,null,1
+"'Stop beyond the line, at a point where you can see clearly'",187,null,
+'Stop only if there's traffic on the main road',187,null,
+'Stop only if you're turning right',187,null,
+'Ignore the error and stay calm',188,null,1
+'Flash your lights to show your annoyance',188,null,
+'Sound your horn to show your annoyance',188,null,
+'Overtake as soon as possible',188,null,
+'They won't be able to obtain car insurance',189,null,
+'They'll need glasses to read road signs',189,null,
+'They'll take longer to react to hazards',189,null,1
+'They won't signal at junctions',189,null,
+"'Yes, you should plan to stop every half an hour'",190,null,
+"'Yes, regular stops help concentration'",190,null,1
+"'No, you'll be less tired if you get there as soon as possible'",190,null,
+"'No, only fuel stops will be needed'",190,null,
+'Go over it quickly',191,null,
+'Go over it carefully',191,null,
+'Stop before the barrier ',191,null,1
+'Switch on your hazard warning lights',191,null,
+'Brake and stop only for large vehicles',192,null,
+'Brake sharply to a stop before looking',192,null,
+'Be prepared to brake sharply to a stop',192,null,
+'Be prepared to stop for any traffic',192,null,1
+'Wave towards the pedestrians who are waiting to cross',193,null,
+'Wait for the pedestrian in the road to cross',193,null,1
+'Quickly drive behind the pedestrian in the road',193,null,
+'Tell the pedestrian in the road she shouldn't have crossed',193,null,
+'Overtake after checking your mirrors and signalling',194,null,
+'Only consider overtaking when you're past the junction',194,null,1
+'Accelerate quickly to overtake before reaching the junction',194,null,
+'Slow down and prepare to overtake on the left',194,null,
+'Move out to the centre of the road before going through',195,null,
+'Find another route; this one is only for high vehicles',195,null,
+'Be prepared to give way to large vehicles in the middle of the road',195,null,1
+'Move across to the right-hand side before going through',195,null,
+'They give a wider field of vision',196,null,1
+'They totally cover blind spots',196,null,
+'They make it easier to judge the speed of the traffic behind',196,null,
+'They make the traffic behind look bigger',196,null,
+"'Cautiously approach the lorry, then overtake on either side'",197,null,
+'Follow the lorry until you can leave the motorway',197,null,
+'Use the right-hand lane and overtake the lorry normally',197,null,
+'Approach with care and overtake on the left of the lorry',197,null,1
+'Flash your lights to alert the driver',198,null,
+'Sound your horn before overtaking',198,null,
+'Overtake on the left if there's room',198,null,
+'Stay behind and don't overtake',198,null,1
+'Glare from the sun may affect the driver's vision',199,null,
+'The black car may stop suddenly',199,null,
+'The bus may move out into the road',199,null,1
+'Oncoming vehicles will assume the driver is turning right',199,null,
+'A broken-down vehicle',200,null,
+'A school bus',200,null,1
+'An ice-cream van',200,null,
+'A private ambulance',200,null,
+'Glare from the sun',201,null,
+'Lack of road markings',201,null,
+'Children running out between vehicles',201,null,1
+'Large goods vehicles',201,null,
+'The cyclist may move to the left and dismount',202,null,
+'The cyclist may swerve into the road',202,null,1
+'The cyclist may get off and push their bicycle',202,null,
+'The cyclist may wish to turn right at the end of the road',202,null,
+'Stop and take a break',203,null,1
+'Shout abusive language',203,null,
+'Gesture to them with your hand',203,null,
+"'Follow them, flashing your headlights'",203,null,
+'At a reduced speed',204,null,1
+'At the speed limit',204,null,
+'In the centre of the road',204,null,
+'With headlights on dipped beam',204,null,
+'Because of the level crossing',205,null,1
+'Because it's hard to see to the right',205,null,
+'Because of approaching traffic',205,null,
+'Because of animals crossing',205,null,
+'To restrict the flow of traffic',206,null,
+'To warn of oncoming traffic',206,null,
+'To help you select the correct lane in good time',206,null,1
+'To prevent you from changing lanes',206,null,
+'Traffic in both directions can use the middle lane to overtake',207,null,1
+'Traffic can travel faster in poor weather conditions',207,null,
+'Traffic can overtake on the left',207,null,
+'Traffic uses the middle lane for emergencies only',207,null,
+'An ambulance',208,null,
+'A fire engine',208,null,
+'A doctor on call',208,null,
+'A tractor',208,null,1
+'Go ahead',209,null,
+'Stop',209,null,1
+'Turn left',209,null,
+'Turn right',209,null,
+'There's a zebra crossing ahead',210,null,
+'There are driveways on the left',210,null,
+'People may cross the road in front of it ',210,null,1
+'The road surface will be slippery',210,null,
+'On a single carriageway',211,null,
+'On a one-way street',211,null,
+'Approaching a junction',211,null,1
+'Travelling up a long hill',211,null,
+'Your ability to judge speed will be reduced',212,null,1
+'Your confidence will be reduced',212,null,
+'Your reactions will be faster',212,null,
+'Your awareness of danger will be improved',212,null,
+'Traffic lights ahead',213,null,
+'Edge of the carriageway',213,null,1
+'Footpath on the left',213,null,
+'Cycle path',213,null,
+'Both half-barriers down',214,null,
+'A steady amber light',214,null,1
+'One half-barrier down',214,null,
+'Twin flashing red lights',214,null,
+'Try to move off before the cyclist',215,null,
+'Allow the cyclist time and room',215,null,1
+'Turn right but give the cyclist room',215,null,
+'Tap your horn and drive through first',215,null,
+'Check your right mirror',216,null,
+'Move up closer to the car ahead',216,null,
+'Move out to the right',216,null,
+'Check for bicycles on your left',216,null,1
+'A staggered junction is ahead',217,null,1
+'A low bridge is ahead',217,null,
+'The road surface changes ahead',217,null,
+'The road narrows ahead',217,null,
+'Traffic will move into the right-hand lane',218,null,
+'Traffic speed will increase',218,null,
+'Traffic will move into the left-hand lane',218,null,1
+'Traffic won't need to change position',218,null,
+'The two right lanes are open',219,null,
+'The two left lanes are open',219,null,1
+'Traffic in the left lanes should stop',219,null,
+'Traffic in the right lanes should stop',219,null,
+'Avoid mixing your alcoholic drinks',220,null,
+'Don't drink any alcohol at all',220,null,1
+'Have some milk before drinking alcohol',220,null,
+'Eat a hot meal with your alcoholic drinks',220,null,
+'Road fund licence',221,null,
+'Insurance premiums',221,null,1
+'Vehicle test certificate',221,null,
+'Driving licence',221,null,
+'Have a strong cup of coffee and then drive home',222,null,
+'Drive home carefully and slowly',222,null,
+'Go home by public transport',222,null,1
+'Wait a short while and then drive home',222,null,
+'Only drive if your journey is necessary',223,null,
+'Drive on quiet roads',223,null,
+'Ask someone to come with you',223,null,
+'Avoid driving and check with your doctor',223,null,1
+'Only drive if someone is with you',224,null,
+'Avoid driving on motorways',224,null,
+'Get someone else to drive',224,null,1
+'Never drive at more than 30 mph',224,null,
+'See your doctor each time before you drive',225,null,
+'Take smaller doses of any medicines',225,null,
+'Stop driving until you're fit to drive again',225,null,1
+'Take all your medicines with you when you drive',225,null,
+'Stop and rest as soon as possible',226,null,1
+'Turn the heater up to keep you warm and comfortable',226,null,
+'Close the car windows to help you concentrate',226,null,
+'Continue with your journey but drive more slowly',226,null,
+'Pull up on the hard shoulder and change drivers',227,null,
+'Leave the motorway at the next exit and rest',227,null,1
+'Increase your speed and turn up the radio volume',227,null,
+'Close all your windows and set the heating to warm',227,null,
+'Wait until you're fit and well before driving',228,null,1
+"'Drive home, but take a tablet for headaches'",228,null,
+'Drive home if you can stay awake for the journey',228,null,
+"'Wait for a short time, then drive home slowly'",228,null,
+'Eat a large meal before driving',229,null,
+'Take regular refreshment breaks',229,null,1
+'Play loud music in the car',229,null,
+'Complete the journey without stopping',229,null,
+'Ask your friend if taking the medicine affected their driving',230,null,
+'Drink some strong coffee one hour before driving',230,null,
+'Check the label to see if the medicine will affect your driving',230,null,1
+'Drive a short distance to see if the medicine is affecting your driving',230,null,
+'Reverse out of the road',231,null,
+'Turn around in a side road',231,null,
+'Continue and find another route',231,null,1
+'Reverse into a driveway',231,null,
+'Looking at road maps',232,null,1
+'Switching on your demister',232,null,
+'Using your windscreen washers',232,null,
+'Looking in your door mirror',232,null,
+'Move to the opposite side of the road',233,null,
+'Drive through as you have priority',233,null,
+'Sound your horn and be prepared to stop',233,null,1
+'Speed up and drive through quickly',233,null,
+'Open a window',234,null,
+'Turn on your radio',234,null,
+'Have an alcoholic drink',234,null,
+'Calm down',234,null,1
+'There's a broken white line in the centre',235,null,
+'There are solid white lines on either side',235,null,
+'There are roadworks ahead of you',235,null,1
+'There are no footpaths',235,null,
+'Sound the horn',236,null,
+'Brake firmly',236,null,
+'Keep a safe gap',236,null,1
+'Flash your lights',236,null,
+"'Drive home slowly, keeping to quiet roads'",237,null,
+'Borrow a friend's glasses and use those',237,null,
+"'Drive home at night, so that the lights will help you'",237,null,
+'Find a way of getting home without driving',237,null,1
+'It improves judgement skills',238,null,
+'It increases confidence',238,null,1
+'It leads to faster reactions',238,null,
+'It increases concentration',238,null,
+'Drug companies want customer feedback on their products',239,null,
+'You may have to let your insurance company know about the medicine',239,null,
+'Some types of medicine can affect your ability to drive safely',239,null,1
+'The medicine you take may affect your hearing',239,null,
+'Only in bad weather conditions',240,null,
+'Whenever you're driving',240,null,1
+'When you think it's necessary',240,null,
+'Only at night time',240,null,
+'Half-moon ',241,null,
+'Round ',241,null,
+'Bifocal ',241,null,
+'Tinted ',241,null,1
+'Drugs',242,null,1
+'Busy roads',242,null,
+'Tinted windows',242,null,
+'Weather conditions',242,null,
+'Tell the driver licensing authority',243,null,1
+'Tell your doctor',243,null,
+'Tell the police',243,null,
+'Tell your optician',243,null,
+'When you're double-parked on a two-way A road',244,null,
+'When your direction indicators aren't working',244,null,
+'When warning oncoming traffic that you intend to stop',244,null,
+'When your vehicle has broken down and is causing an obstruction',244,null,1
+'Stay well back and wait to see if anything comes',245,null,
+'Build up your speed so that you can emerge quickly',245,null,
+'Stop and apply the parking brake even if the road is clear',245,null,
+'Approach slowly and edge out until you can see more clearly',245,null,1
+'To engage cruise control',246,null,
+'To accelerate quickly',246,null,1
+'To brake progressively',246,null,
+'To improve fuel economy',246,null,
+'Allow a two-second separation gap',247,null,
+'Switch your headlights onto main beam',247,null,
+'Move into a lane that has less spray',247,null,
+'Be aware of spray reducing your vision',247,null,1
+'A vehicle overtaking you',248,null,
+'Mud on the road',248,null,
+'The road getting narrower',248,null,
+'Pedestrians walking towards you',248,null,1
+"'Slow down, keeping a safe separation distance'",249,null,1
+'Accelerate past the vehicles in the left-hand lane',249,null,
+'Pull up on the left-hand verge',249,null,
+'Move across and continue in the right-hand lane',249,null,
+'When driving on a motorway to warn traffic behind of a hazard ahead',250,null,1
+'When you're double-parked on a two-way',250,null,
+'When your direction indicators aren't working',250,null,
+'When warning oncoming traffic that you intend to stop',250,null,
+'Looking for traffic behind you',251,null,
+'Reflections of traffic in windows',251,null,1
+'Making eye contact with other road users',251,null,
+'Checking for traffic in your interior mirror',251,null,
+'Inform your local police',252,null,
+'Avoid using motorways',252,null,
+'Always drive accompanied',252,null,
+'Inform the licensing authority',252,null,1
+'To allow vehicles to enter and emerge',253,null,1
+'To allow the bus to reverse',253,null,
+'To allow vehicles to make a U-turn',253,null,
+'To allow vehicles to park',253,null,
+'Stop on the hard shoulder for a sleep',254,null,
+'Open a window and stop as soon as it's safe and legal',254,null,1
+'Speed up to arrive at your destination sooner',254,null,
+'Slow down and let other drivers overtake',254,null,
+'',255,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/255.A.png',
+'',255,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/255.B.png',
+'',255,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/255.C.png',
+'',255,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/255.D.png',1
+"'Go around them, leaving plenty of room'",256,null,
+'Stop and wave at them to cross',256,null,
+'Sound your horn and proceed',256,null,
+'Give way to them',256,null,1
+'One-way street',257,null,
+'Pedestrians ',257,null,1
+'Traffic congestion',257,null,
+'Parked vehicles',257,null,
+'They may be overtaking on your left',258,null,
+'They may be following you closely',258,null,
+'They may be emerging from the side road',258,null,
+'They may be overtaking on your right',258,null,1
+'Moped riders can use it',259,null,
+'It's controlled by a traffic warden',259,null,
+'It's controlled by two flashing lights',259,null,
+'Pedestrians and cyclists can use it together',259,null,1
+'By pointing to children waiting to cross',260,null,
+'By displaying a red light',260,null,
+'By displaying a 'stop' sign ',260,null,1
+'By giving you an arm signal',260,null,
+'In the window of a car taking children to school',261,null,
+'At the side of the road',261,null,
+'At playground areas',261,null,
+'On the rear of a school bus or coach',261,null,1
+'No route for pedestrians and cyclists',262,null,
+'A route for pedestrians only',262,null,
+'A route for cyclists only',262,null,
+'A route for pedestrians and cyclists',262,null,1
+'They have limited mobility',263,null,
+'They're deaf',263,null,
+'They're blind',263,null,
+'They're deaf and blind',263,null,1
+'Wave them across so they know that you've seen them',264,null,
+"'Be patient and allow them to cross in their own time
+'",264,null,1
+'Rev the engine to let them know that you're waiting',264,null,
+'Tap the horn in case they're hard of hearing',264,null,
+"'Expect them to wait for you to pass
+'",265,null,
+'Speed up to get past them quickly',265,null,
+'Stop and wave them across the road',265,null,
+'Be careful; they may misjudge your speed',265,null,1
+'Overtake on the right',266,null,
+'Give a warning with your horn',266,null,
+'Signal the cyclist to move across',266,null,
+'Give the cyclist plenty of room',266,null,1
+'Lorry ',267,null,
+'Tractor',267,null,
+'Bicycle',267,null,1
+'Road-sweeper',267,null,
+'They may want to turn into the side road',268,null,
+'They may slow down to let you turn',268,null,
+'They're harder to see',268,null,1
+'They might not see you turn',268,null,
+'Motorcycles are usually faster than cars',269,null,
+'Police patrols often use motorcycles',269,null,
+'Motorcycles can easily be hidden behind obstructions',269,null,1
+'Motorcycles have right of way',269,null,
+'So that the rider can be seen more easily',270,null,1
+'To stop the battery overcharging',270,null,
+'To improve the rider's vision',270,null,
+'The rider is inviting you to proceed',270,null,
+'They must do so by law',271,null,
+'It helps keep them cool in summer',271,null,
+'The colors are popular',271,null,
+'To make them more visible',271,null,1
+'To listen for traffic behind them',272,null,
+'Motorcycles don't have mirrors',272,null,
+'It helps them balance as they turn',272,null,
+'To check for traffic in their blind area ',272,null,1
+'Car driver',273,null,
+'Tractor driver',273,null,
+'Lorry driver',273,null,
+'Motorcyclist',273,null,1
+'Sound your horn as a warning',274,null,
+'Treat them like any other vehicle',274,null,
+'Give them plenty of room',274,null,1
+'Accelerate past as quickly as possible',274,null,
+'Wave them to cross as quickly as they can',275,null,
+'Rev your engine to make them hurry',275,null,
+'Flash your lights in case they haven't noticed you',275,null,
+'Wait patiently while they cross',275,null,1
+'Reduce speed until you're clear of the area',276,null,1
+'Keep up your speed and sound the horn',276,null,
+'Increase your speed to clear the area quickly',276,null,
+'Wait at the lights until they stop flashing',276,null,
+'To allow children to be dropped off at school',277,null,
+'To allow teachers to park',277,null,
+'To allow children to be picked up after school',277,null,
+'To allow children to see and be seen when they're crossing the road',277,null,1
+'Near a school crossing',278,null,
+'At a playground entrance',278,null,
+'On a school bus',278,null,1
+'At a 'pedestrians only' area',278,null,
+'Left',279,null,
+'Right',279,null,
+'Any direction',279,null,1
+'Straight ahead',279,null,
+'Overtake the moped before the junction',280,null,
+'Pull alongside the moped and stay level until just before the junction',280,null,
+'Sound your horn as a warning and pull in front of the moped',280,null,
+'Stay behind until the moped has passed the junction',280,null,1
+'Proceed as normal',281,null,
+'Keep close to them',281,null,
+'Cut in front of them',281,null,
+'Stay well back',281,null,1
+'Sound your horn to warn them of your presence',282,null,
+'Be patient and prepare for them to react more slowly',282,null,1
+'Flash your headlights to indicate that it's safe for them to proceed',282,null,
+'Overtake them as soon as possible',282,null,
+"'Be patient, as you expect them to make mistakes'",283,null,1
+'Stay very close behind and flash your headlights',283,null,
+'Start to rev your engine if they take too long to restart',283,null,
+'Immediately steer around them and drive on',283,null,
+'Motorcycles',284,null,
+'Bicycles',284,null,
+'Pedestrians',284,null,1
+'Horse riders',284,null,
+'Overtake the cyclist before you reach the junction',285,null,
+'Pull alongside the cyclist and stay level until after the junction',285,null,
+'Hold back until the cyclist has passed the junction',285,null,1
+'Go around the cyclist on the junction',285,null,
+'In any direction',286,null,1
+'To the right',286,null,
+'To the left',286,null,
+'Straight ahead',286,null,
+'Flashing red beacon ',287,null,
+'Flashing green beacon ',287,null,
+'Flashing blue beacon ',287,null,
+'Flashing amber beacon ',287,null,1
+'The vehicle is slow moving',288,null,1
+'The vehicle has broken down',288,null,
+'The vehicle is a doctor's car',288,null,
+'The vehicle belongs to a school crossing patrol',288,null,
+'Contraflow cycle lane',289,null,
+'With-flow cycle lane',289,null,1
+'Cycles and buses only',289,null,
+'No cycles or buses',289,null,
+'Pull out to the middle of the road',290,null,
+'Slow down and be ready to stop',290,null,1
+'Switch on your hazard warning lights',290,null,
+'Give a right-turn signal',290,null,
+'To ensure children can see and be seen when they're crossing the road',291,null,1
+'To enable teachers to have clear access to the school',291,null,
+'To ensure delivery vehicles have easy access to the school',291,null,
+'To enable parents to pick up or drop off children safely',291,null,
+'Watch out for pedestrians walking in the road',292,null,1
+'Use your right-hand mirror more often',292,null,
+'Speed up to get past the roadworks more quickly',292,null,
+'Position close to the left-hand kerb',292,null,
+'Follow closely so they can see you in their mirrors',293,null,
+'Overtake immediately to avoid delays',293,null,
+'Allow extra room in case they swerve to avoid potholes',293,null,1
+'Allow the same room as normal to avoid wasting road space',293,null,
+'No cycling',294,null,
+'Cycle route ahead',294,null,1
+'Cycle parking only',294,null,
+'End of cycle route',294,null,
+'Sound your horn',295,null,
+'Overtake them',295,null,
+'Assume they're turning left',295,null,
+'Allow them space to turn',295,null,1
+'Prepare to slow down and stop',296,null,1
+'Stop and wave the pedestrians across',296,null,
+'Speed up and pass by quickly',296,null,
+'Continue unless the pedestrians step out',296,null,
+'The pedestrian is an older person',297,null,
+'The pedestrian is a dog trainer',297,null,
+'The pedestrian is colour-blind',297,null,
+'The pedestrian is deaf',297,null,1
+'Motorcyclists and cyclists',298,null,
+'Motorcyclists and pedestrians',298,null,
+'Only cyclists',298,null,
+'Cyclists and pedestrians',298,null,1
+'To allow taxis to position in front of other traffic',299,null,
+'To allow people with disabilities to cross the road',299,null,
+'To allow cyclists and pedestrians to cross the road together',299,null,
+'To allow cyclists to position in front of other traffic',299,null,1
+'The cyclist might speed up',300,null,
+'The cyclist might get off their bicycle',300,null,
+'The cyclist might be unsettled if you pass too near them',300,null,1
+'The cyclist might have to make a left turn',300,null,
+'Briefly sound your horn',301,null,
+'Go very slowly',301,null,1
+'Pass quickly but quietly',301,null,
+'Herd them to the side of the road',301,null,
+'You're approaching roadworks',302,null,
+'You're approaching an organised walk',302,null,1
+'You're approaching a slow-moving vehicle',302,null,
+'You're approaching a traffic danger spot',302,null,
+'By always staying close to the vehicle in front',303,null,
+'By never going over 40 mph',303,null,
+'By staying in the left-hand lane on all roads',303,null,
+'By taking further training',303,null,1
+'Look through the rear window only',304,null,
+'Get out and check',304,null,1
+'Check the mirrors only',304,null,
+"'Carry on, assuming it's clear'",304,null,
+'Wave to the pedestrian to stop',305,null,
+'Give way to the pedestrian',305,null,1
+'Sound your horn to warn the pedestrian',305,null,
+'Reverse before the pedestrian starts to cross',305,null,
+'Motorcyclists',306,null,
+'Car drivers',306,null,
+'Cyclists',306,null,
+'Children',306,null,1
+"'Move out quickly, but be prepared to stop'",307,null,
+'Sound your horn and pull out if there's no reply',307,null,
+"'Stop, then move forward slowly until you have a clear view'",307,null,1
+"'Stop, get out and look along the main road to check'",307,null,
+'To look for pedestrians about to cross',308,null,
+'To check for overtaking vehicles ',308,null,1
+'To make sure the side road is clear',308,null,
+'To check for emerging traffic ',308,null,
+'Signal the pedestrian to cross',309,null,
+'Always wait for the green light before proceeding',309,null,
+'Give way to any pedestrians on the crossing',309,null,1
+'Wait for the red-and-amber light before proceeding',309,null,
+'Wait for them to finish crossing',310,null,1
+'Drive in front of them',310,null,
+'Edge forward slowly',310,null,
+'Sound your horn',310,null,
+'Continue driving at the same speed and sound your horn',311,null,
+'Continue driving at the same speed and flash your headlights',311,null,
+'Slow down and be prepared to stop for children',311,null,1
+'Stop and wave the children across to fetch their ball',311,null,
+'Cancel your right-turn signal',312,null,
+'Select first gear',312,null,
+'Check for traffic overtaking on your right',312,null,1
+'Stop and set the parking brake',312,null,
+'Sound the horn and flash your lights',313,null,
+'Look for motorcyclists filtering through the traffic',313,null,1
+'Give a 'slowing down' arm signal',313,null,
+'Change down to first gear',313,null,
+'The bus might have broken down',314,null,
+'Pedestrians might come from behind the bus',314,null,1
+'The bus might move off suddenly',314,null,
+'The bus might remain stationary',314,null,
+'Drive up close and overtake as soon as possible',315,null,
+'Speed isn't important but allow plenty of room',315,null,
+'Use your horn just once to warn them',315,null,
+'Drive slowly and leave plenty of room',315,null,1
+'The rider may turn off suddenly to get out of the wind',316,null,
+'The rider may be blown in front of you',316,null,1
+'The rider may stop suddenly',316,null,
+'The rider may be travelling faster than normal',316,null,
+'On dual carriageways',317,null,
+'At junctions',317,null,1
+'At zebra crossings',317,null,
+'On one-way streers',317,null,
+'You may park on the lines when dropping off schoolchildren',318,null,
+'You may park on the lines when picking up schoolchildren',318,null,
+'You shouldn't wait or park your vehicle here',318,null,1
+'You must stay with your vehicle if you park here',318,null,
+'Accelerate past quickly and sound your horn',319,null,
+'Slow down and wave the cyclist across',319,null,
+'Brake sharply and flash your headlights',319,null,
+'Slow down and be prepared to stop for a cyclist',319,null,1
+'Set your mirror to the anti-dazzle position',320,null,1
+'Set your mirror to dazzle the other driver',320,null,
+'Brake sharply to a stop',320,null,
+'Switch your rear lights on and off',320,null,
+'Continue on your way',321,null,
+'Wave to the person to cross',321,null,
+'Wave to the person to wait',321,null,
+'Be prepared to stop',321,null,1
+'Turn in because the pedestrians are safe on the pavement',322,null,
+"'Wave at the pedestrians, inviting them to cross the road'",322,null,
+'Wait and give way to the pedestrians',322,null,1
+'Sound your horn to alert the pedestrians to your presence',322,null,
+'Sound your horn to alert them to your presence',323,null,
+'Stay behind and allow them to ride in this position',323,null,1
+'Move across to the right and try to ease past them',323,null,
+'Get up close behind to encourage them to move aside',323,null,
+'At least as much room as you would if you were overtaking a car',324,null,1
+'At least a car's width',324,null,
+'At least a car's length',324,null,
+'At least 2 car widths',324,null,
+'Flash your lights to encourage the pedestrian to cross',325,null,
+'Carry on turning into the side road',325,null,
+'Sound your horn to let the pedestrian know you're there',325,null,
+'Wait and give way to the pedestrian',325,null,1
+'',326,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/326.A.png',1
+'',326,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/326.B.png',
+'',326,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/326.C.png',
+'',326,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/326.D.png',
+'Anything overtaking the lorry will be hidden from view',327,null,1
+'The lorry could suddenly speed up',327,null,
+'The lorry might be slowing down',327,null,
+'The load on the lorry might be unstable',327,null,
+'Get closer in order to pass it quickly',328,null,
+'Stay well back and give it room',328,null,1
+'Assume the signal is wrong and that it's turning right',328,null,
+'Overtake it as it starts to slow down',328,null,
+'Warn the driver about the wrong signal',329,null,
+'Wait behind the long vehicle',329,null,1
+'Report the driver to the police',329,null,
+'Overtake on the right-hand side',329,null,
+'Sound your horn',330,null,
+'Overtake on the left',330,null,
+'Follow the same course as the lorry',330,null,
+'Keep well back',330,null,1
+'To give yourself acceleration space if you decide to overtake',331,null,
+'To get the best view of the road ahead',331,null,1
+'To leave a gap in case the vehicle stops and rolls back',331,null,
+'To offer other drivers a safe gap if they want to overtake you',331,null,
+'Accelerate past the bus',332,null,
+'Look for pedestrians',332,null,1
+'Sound your horn',332,null,
+'Pull in closely behind the bus',332,null,
+'Drop back untill you can see better',333,null,1
+'Put your headlights on full beam',333,null,
+"'Keep close to the lorry, away from the spray'",333,null,
+'Speed up and overtake quickly',333,null,
+'Sound your horn',334,null,
+'Drop back further',334,null,1
+'Flash your headlights',334,null,
+'Start to overtake',334,null,
+'Get past before it moves',335,null,
+"'Allow it to pull away, if it's safe to do so'",335,null,1
+'Flash you headlights as you approach',335,null,
+'Signal left and wave tho bus on',335,null,
+'Follow it closely and keep moving out to see the road ahead',336,null,
+'Flash your headlights for the oncoming traffic to give way',336,null,
+'Stay behind until the driver waves you past',336,null,
+'Keep well back so that you get a good view of the road ahead',336,null,1
+'Cyclists',337,null,
+'Motorcyclists',337,null,
+'High-sided vehicles',337,null,
+'Cars',337,null,1
+'Slow down and be prepared to wait',338,null,1
+'Make the lorry wait for you',338,null,
+'flash your lights at the lorry',338,null,
+'Move to the right-hand side of the road',338,null,
+'ovetake if you can leave plenty of room',339,null,
+'Over if there are no oncoming vehicles',339,null,
+'Wait for the driver to cancel his signal',339,null,
+'Wait for the vehicle to finish turning',339,null,1
+'It will take longer to overtake a large vehicle',340,null,1
+'A large vehicle will be fitted with a speed limiter',340,null,
+'A large vehicle will have air brakes',340,null,
+'It will take longer for a large vehicle to accelerate',340,null,
+'Overtake the motorcyclist immediately',341,null,
+'Keep well back',341,null,1
+'Stay level with tho morocysclist',341,null,
+'Keep choose to the motorcyclist',341,null,
+'Flash your lights to warn the driver of your presence',342,null,
+'Continue at the same speed but sound your horn as a warning',342,null,
+'Watch carefully for the sudden appearance of pedestrians',342,null,1
+'Pass the bus as quickly as you possibly can',342,null,
+'Sound your horn and continue',343,null,
+'Slow down and give way',343,null,1
+'Report the driver to the police',343,null,
+'Squeeze through the gap',343,null,
+'Because trams don't have a horn',344,null,
+'Because trams can't stop for cars',344,null,
+'Because trams don't have lights',344,null,
+'Because trams can't steer to avoid obstructions',344,null,1
+'Interior wide-angle mirror',345,null,
+'Extended-arm side mirrors',345,null,1
+'Ordinary door mirrors',345,null,
+'Ordinary interior mirror',345,null,
+'Main-beam headlights',346,null,
+'Sidelights only',346,null,
+'Rear fog lights if visibility is more than 100 metres (328 feet)',346,null,
+'Dipped headlights',346,null,1
+'Overtake very slowly',347,null,
+'Keep close as you pass',347,null,
+'Sound your horn repeatedly',347,null,
+'Allow extra room',347,null,1
+'When you're in a one-way street',348,null,1
+'When approaching a motorway slip road where you'll be turning off',348,null,
+'When the vehicle in front is signalling to turn left',348,null,
+'When a slower vehicle is travelling in the right-hand lane of a dual carriageway',348,null,
+'It will be doubled',349,null,1
+'It will be halved',349,null,
+'It will be ten times greater',349,null,
+'It will be no different',349,null,
+'Wait until a bend so that you can see oncoming headlights',350,null,
+'Sound your horn twice before moving out',350,null,
+'Go past slowly so that you can react to unseen hazards',350,null,
+'Beware of bends in the road ahead',350,null,1
+'When you're stationary in a queue of traffic',351,null,
+'When approaching a pelican crossing',351,null,
+'When approaching a zebra crossing',351,null,
+'When oncoming traffic prevents you turning right',351,null,1
+'',352,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/352.A.png',1
+'',352,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/352.B.png',
+'',352,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/352.C.png',
+'',352,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/352.D.png',
+'To stop road age',353,null,
+'To make overtaking easier',353,null,
+'To slow traffic down',353,null,1
+'To make parking easier',353,null,
+'Green',354,null,
+'Amber',354,null,
+'Red',354,null,1
+'White',354,null,
+'Give directions',355,null,
+'Prevent cattle escaping',355,null,
+'Alert you to low tyre pressure',355,null,
+'Alert you to a hazard',355,null,1
+'Follow other vehicles' tail lights closely',356,null,
+'Avoid using dipped headlights',356,null,
+'Leave plenty of time for your journey',356,null,1
+'Keep two seconds behind the vehicle ahead',356,null,
+'Flash your headlights before overtaking',357,null,
+'Select a higher gear',357,null,
+'Switch your headlights to main beam before overtaking',357,null,
+'Make sure you don't dazzle other road users',357,null,1
+'Sound your horn',358,null,
+'Overtake as soon as you can',358,null,
+'Flash your headlights',358,null,
+'Slow down and stay behind',358,null,1
+'To show a safe distance between vehicles',359,null,
+'To keep the area clear of traffic',359,null,
+'To make you aware of your speed',359,null,1
+'To warn you to change direction',359,null,
+'Reverse back to the main road',360,null,
+'Carry out an emergency stop',360,null,
+'Stop at a passing place',360,null,1
+'Switch on your hazard warning lights',360,null,
+'To avoid puncturing the typres on the edge of the drain covers',361,null,
+'To prevent the motorcycle sliding on the metal drain covers',361,null,1
+'To help judge the bend using the drain covers as marker points',361,null,
+'To avoid splashing pedestrians on the pavement',361,null,
+'You'll be on a slippery road',362,null,
+'Your brakes will be wet',362,null,1
+'You''ll be going down a long hill',362,null,
+'You'll have just crossed a long bridge',362,null,
+'The brakes don't work as well',363,null,
+'You'll be dazzled by other headlights',363,null,
+'The engine will take longer to warm up',363,null,
+'It's more difficult to see what's ahead',363,null,1
+'The high gears will pull better',364,null,
+'The steering will feel heavier',364,null,
+'Overtaking will be easier',364,null,
+'The engine will work harder',364,null,1
+'Increase your speed',365,null,
+'Be wary of a sudden gust',365,null,1
+'Drive alongside very closely',365,null,
+'Expect normal conditions',365,null,
+'In case it changes direction suddenly',366,null,
+'In case its fog lights dazzle you',366,null,
+'In case it stops suddenly',366,null,1
+'In case its brake lights dazzle you',366,null,
+'Leave parking lights switched on',367,null,1
+'Leave dipped headlights and fog lights switched on',367,null,
+'Leave dipped headlights switched on',367,null,
+'Leave main-beam headlights switched on',367,null,
+'Pull down your sun visor',368,null,
+'Slow down or stop',368,null,1
+'Flash your main-beam headlights',368,null,
+'Shade your eyes with your hand',368,null,
+'When visibility is seriously reduced',369,null,1
+'When they're fitted above the bumper',369,null,
+'When they aren't as bright as the headlights',369,null,
+'When an audible warning device is used',369,null,
+'Leave them on if other drivers have their lights on',370,null,
+'Switch them off as long as visibility remains good',370,null,1
+'Flash them to warn oncoming traffic that it's foggy',370,null,
+'Drive wth them on instead of your headlights',370,null,
+'To allow your headlights to work',371,null,
+'To stop draining the battery',371,null,
+'To stop the engine losing power',371,null,
+'To prevent dazzling drivers behind',371,null,1
+'They'll make it safer when towing a trailer',372,null,
+'They'll protect you from larger vehicles',372,null,
+'They'll dazzle other drivers',372,null,1
+'They'll make drivers behind keep back',372,null,
+'To help prevent damage to the road surface',373,null,
+'To help prevent wear to the tyres',373,null,
+'To help prevent skidding in deep snow',373,null,1
+'To help prevent the brakes locking',373,null,
+'By changing to a lower gear',374,null,1
+'Be selecting reverse gear',374,null,
+'By changing to a higher gear',374,null,
+'By selecting neutral',374,null,
+'Fuel spillage will occur',375,null,
+'Engine damage may be caused',375,null,
+'You'll have less steering and braking control',375,null,1
+'It will wear tyres out more quickly',375,null,
+'Four times the normal distance',376,null,
+'Six times the normal distance',376,null,
+'Eight times the normal distance',376,null,
+'Ten times the normal distance',376,null,1
+'Use only your sidelights',377,null,
+'Use your headlights',377,null,1
+'Use rear fog lights',377,null,
+'Use front fog lights',377,null,
+'Front fog lights',378,null,
+'Main-beam headlights',378,null,
+'Sidelights only',378,null,
+'Dipped headlights',378,null,1
+'The speed limit',379,null,
+'The street lighting',379,null,
+'The time of day',379,null,
+'The condition of the tyres',379,null,1
+'When you only use the parking brake',380,null,
+'When you're in neutral',380,null,
+'When you change to a lower gear',380,null,1
+'When you change to a higher gear',380,null,
+'Headlights and fog lights',381,null,
+'Front fog lights',381,null,
+'Dipped headlights',381,null,1
+'Rear fog lights',381,null,
+'To make them more visible when driving at high speed',382,null,
+'To show when they've broken down in a dangerous position',382,null,
+'To make them more visible in thick fog',382,null,1
+'To warn drivers following closely to drop back',382,null,
+'Whether you should fit an amber flashing beacon to your car',383,null,
+'Whether you should drive without wearing your seat belt',383,null,
+'Whether you should wear sunglasses to reduce the glare',383,null,
+'Whether your journey is essential',383,null,1
+'The radiator has enough anti-freeze',384,null,
+'You have a warning triangle in the vehicle',384,null,
+'The windows and lights are clean and clear',384,null,1
+'You have a mobile phone with you',384,null,
+'Switch off your fog lights',385,null,1
+'Keep your rear fog lights switched on',385,null,
+'Keep your front fog lights switched on',385,null,
+'Leave your fog lights switched on in case the fog returns',385,null,
+'They may be confused with brake lights',386,null,1
+'The bulbs would fail',386,null,
+'Electrical systems could be overloaded',386,null,
+'Direction indicators may not work properly',386,null,
+'It will use more fuel',387,null,
+'It wll cause the engine to overheat',387,null,
+'It will reduce your control',387,null,1
+'It will improve tyre wear',387,null,
+'The fuel consumption will increase',388,null,
+'The engine will overheat',388,null,
+'The tyres will wear more quickly',388,null,
+'The vehicle will gain speed more quickly',388,null,1
+'Switch on your hazard warning lights',389,null,
+'Use a low gear and drive slowly',389,null,1
+'Use a high gear to prevent wheelspin',389,null,
+'Switch on your windscreen wipers',389,null,
+'It will cause the car to skid',390,null,
+'It will make the engine stall',390,null,
+'The engine will run faster',390,null,
+'There won't be any engine braking',390,null,1
+'All the time you're driving',391,null,
+'When you're driving along narrow streets',391,null,
+'When you're driving in poor visibility',391,null,1
+'When you're parking',391,null,
+'Carry on along the hard shoulder until you see a safe gap',392,null,
+'Stop at the end of the slip road and look for a safe gap',392,null,
+'Use the slip road to accelerate until you're moving much faster than the motorway traffic',392,null,
+'Match your speed to traffic in the left-hand lane and filter into a safe gap',392,null,1
+'30 mph',393,null,
+'50 mph',393,null,
+'60 mph',393,null,
+'70 mph',393,null,1
+'Any vehicle that isn't overtaking',394,null,1
+'Large vehicles only',394,null,
+'Emergency vehicles only',394,null,
+'Slow vehicles only',394,null,
+'Small delivery vans',395,null,
+'Motorcycles',395,null,
+'Vehicles towing a trailer',395,null,1
+'Motorcycle and sidecar outfits',395,null,
+'It connects you to a local garage',396,null,
+'Using a mobile phone will distract other drivers',396,null,
+'It allows easy location by the emergency services',396,null,1
+'Mobile phones don't work on motorways',396,null,
+"'Move out onto the carriagewa, then build up your speed'",397,null,
+'Move out onto the carriafeway using your hazard warning lights',397,null,
+'Gain speed on the hard shoulder before moving out onto the carriageway',397,null,1
+'Wait on the hard shoulder until someone flashes their headlights at you',397,null,
+'On a steep gradient',398,null,1
+'Before a service area',398,null,
+'Before a junction',398,null,
+'Along the hard shoulder',398,null,
+'They're countdown markers to a bridge',399,null,
+'They're distance markers to the next telephone',399,null,
+'They're countdown markers to the next exit',399,null,1
+'They want of a police control ahead',399,null,
+'Between the hard shoulder and the carriageway',400,null,
+'Between the acceleration lane and the carriageway',400,null,
+'Between the central reservation and the carriageway',400,null,1
+'Between each pair of lanes',400,null,
+'Green',401,null,
+'Amber',401,null,
+'White',401,null,1
+'Red',401,null,
+'Amber',402,null,
+'White',402,null,
+'Green',402,null,1
+'Red',402,null,
+'With the traffic flow',403,null,
+'Facing oncoming traffic',403,null,
+'In the direction shown on the marker posts',403,null,1
+'In the direction of the nearest exit',403,null,
+'Because there's space available to turn round if you need to',404,null,
+'To allow you direct access to the overtaking lanes',404,null,
+'To allow you to fit safely into the traffic flow in the left-hand lane',404,null,1
+'Because you can continue on the hard shoulder',404,null,
+'Stay close to the carriageway',405,null,
+'Face the oncoming traffic',405,null,1
+'Keep your back to the traffic',405,null,
+'Stand on the hard shoulder',405,null,
+'Green',406,null,
+'Red',406,null,1
+'White',406,null,
+'Amber',406,null,
+'Left',407,null,1
+'Right',407,null,
+'Centre',407,null,
+'Either the right or centre',407,null,
+'Use dipped headlights',408,null,
+'Keep a good distance from the vehicle ahead',408,null,1
+'Switch lanes to keep the traffic flowring',408,null,
+'Stay close to the vehicle ahead to reduce queues',408,null,
+'In the right-hand lane',409,null,
+'In the middle lane',409,null,
+'On the hard shoulder',409,null,
+'In the left-hand lane',409,null,1
+'Speed up to clear the area wuickly',410,null,
+'Always use the hard shoulder',410,null,
+'Obey the speed limit',410,null,1
+'Stay very close to the vehicle in front',410,null,
+'Pawrored mobility scooters',411,null,1
+'Motorcycles over 50 cc',411,null,
+'Double-deck buses',411,null,
+'Cars with automatic transmission',411,null,
+'Look much further ahead than you would on other roads',412,null,1
+'Travel musch faster than you would on other roads',412,null,
+'Maintain a shorter separation distance than you would on other roads',412,null,
+'Concentrate more than you would on other roads',412,null,
+'Try to overtake',413,null,
+'Re-adjust your mirrors',413,null,
+'Position your vehicle in the centre lane',413,null,
+'Stay in the left-hand lane',413,null,1
+'When you're turning right',414,null,
+'When you're overtaking',414,null,1
+'When you're travelling above the speed limit',414,null,
+'When you're trying to save fuel',414,null,
+'When you're stopping in an emergency',415,null,1
+'When you're leaving the motorway',415,null,
+'When you're stopping for a rest',415,null,
+'When you're joining the motorway',415,null,
+'Move to the left and reduce your speed to 50 mph',416,null,1
+'There are roadworks 50 metres (55 yards) ahead',416,null,
+'Use the hard shoulder until you've passed the hazard',416,null,
+'Leave the motorway at the next exit',416,null,
+'When you need to walk and get fresh air',417,null,
+'When you wish to pick up hitchhikers',417,null,
+'When you're signalled to do so by traffic signals',417,null,1
+'When you need to use a mobile telephone',417,null,
+'Increase your speed to ensure they join behind you',418,null,
+'Adjust your speed or change lane if you can do so safely',418,null,1
+'Maintain a steady speed',418,null,
+'Switch on your hazard warning lights',418,null,
+'Use the lane that has the least traffic',419,null,
+'Keep to the left-hand lane unless you're overtaking',419,null,1
+'Overtake using the lane that's clearest',419,null,
+'Stay in one lane until you reach your exit',419,null,
+'When you can see well ahead that the hard shoulder is clear',420,null,
+'When the traffic in the right-hand lane is signalling right',420,null,
+'When you warn drivers behind by signalling left',420,null,
+'When in queues and traffic to your right is moving more slowly than you are',420,null,1
+'In cases of emergency of breakdown',421,null,1
+'If you think you'll be involved in a road rage incident',421,null,
+'To stop and check where you are',421,null,
+'To make a private phone call',421,null,
+'Stop and arrest drivers who break the law',422,null,
+'Repair broken-down vehicles on the motorway',422,null,
+'Issue fixed penalty notices',422,null,
+'Stop and direct anyone on a motorway',422,null,1
+'Pull up in this lane to answer your mobile',423,null,
+'Use this lane as a running lane',423,null,
+'This lane can be used if you need a rest',423,null,
+'You must not travel in this lane',423,null,1
+'Use the emergency telephone',424,null,1
+'Give an arm signal as you are moving off',424,null,
+'Switch on your vehicle's headlights',424,null,
+'Move away with your hazard lights on',424,null,
+'Build up speed on the hard shoulder before looking for a safe gap in the traffic',425,null,1
+'Move straight out into the left-hand lane as you are not allowed to drive on the hard shoulder',425,null,
+'Wait until a vehicle in the left-hand lane signals to you that it's safe to rejoin',425,null,
+'Keep your hazard lights flashing until you have safely rejoined the carriageway',425,null,
+'You shouldn't travel in this lane',426,null,
+'The hard shoulder can be used as a running lane',426,null,1
+'You can park on the hard shoulder if you feel tired',426,null,
+'You can pull up in this lane to answer a mobile phone',426,null,
+'By using higher speed limits',427,null,
+'By using advisory speed limits',427,null,
+'By using minium speed limits',427,null,
+'By using variable speed limits',427,null,1
+'Variable speed limits',428,null,1
+'Contraflow systems',428,null,
+'National speed limits',428,null,
+'Lane closures',428,null,
+'If you have to read a map',429,null,
+'When you're tired and need a rest',429,null,
+'If your mobile phone rings',429,null,
+'In an emergency or breakdown',429,null,1
+'50 mph',430,null,
+'60 mph',430,null,
+'70 mph',430,null,1
+'80 mph',430,null,
+'Next to the phone',431,null,
+'Well away from the carriageway',431,null,1
+'With your vehicle',431,null,
+'On the hard shoulder',431,null,
+'Pull onto the hard shoulder',432,null,
+'Slow down and watch for further signals',432,null,
+'Leave at the next exit',432,null,
+'Stop and wait',432,null,1
+'The hard shoulder can be used as a rest area if you feel tired',433,null,
+'The hard shoulder is for emergency or breakdown use only',433,null,1
+'The hard shoulder can be used as a normal running lane',433,null,
+'The hard shoulder has a speed limit of 50 mph',433,null,
+'Use any lane except the hard shoulder',434,null,
+'Use the hard shoulder only',434,null,
+'Use the three right-hand lanes only',434,null,
+"'Use all the lanes, including the hard shoulder'",434,null,1
+'On the hard shoulder',435,null,
+'At the nearest service area',435,null,1
+'On a slip road',435,null,
+'On the central reservation',435,null,
+'40 mph',436,null,
+'50 mph',436,null,
+'60 mph',436,null,1
+'70 mph',436,null,
+'When your vehicle breaks down',437,null,
+'When you're overtaking slower traffic in the other lanes',437,null,
+'When you're making a phone call',437,null,
+'When the road ahead is clear',437,null,1
+'Switch on your hazard warning lights',438,null,1
+'Switch on your headlights',438,null,
+'Sound your horn',438,null,
+'Flash your headlights',438,null,
+'Carefully change the wheel yourself',439,null,
+'Use an emergency telephone and call for help',439,null,1
+'Try to wave down another vehicle for help',439,null,
+'Only change the wheel if you have a passenger to help you',439,null,
+'Carefully reverse along the hard shoulder',440,null,
+'Carry on to the next exit',440,null,1
+'Carefully reverse in the left-hand lane',440,null,
+'Make a U-turn at the next gap in the central reservation',440,null,
+'Switch on your hazard warning lights',441,null,1
+'Stop the traffic behind and ask for help',441,null,
+'Attempt to repair your vehicle quickly',441,null,
+'Stand behind your vehicle to warn others',441,null,
+'You'll have to do more harsh braking on motorways',442,null,
+'Motorway services areas don't deal with breakdowns',442,null,
+'The road surface will wear down the tyres faster',442,null,
+'Continuous high speeds increase the risk of your vehicle breaking down',442,null,1
+'The driver wants you to overtake',443,null,
+'The other car is going to change lanes',443,null,
+'Traffic ahead is slowing or stopping suddenly',443,null,1
+'There's a police speed check ahead',443,null,
+'The middle lane',444,null,
+'The left-hand lane',444,null,1
+'The hard shoulder',444,null,
+'The right-hand lane',444,null,
+'They can't drive over 30 mph',445,null,
+'They can't drive at night',445,null,
+'They can't drive unaccompanied',445,null,1
+'They can't drive with more than one passenger',445,null,
+'Stand at the rear of the vehicle while making the call',446,null,
+'Phone a friend and ask them to come and collect you',446,null,
+'Wait in the car for the emergency services to arrive',446,null,
+'Check your location from the nearest marker posts beside the hard shoulder',446,null,1
+'When there are lane closures',447,null,1
+'When there's slow-moving traffic',447,null,
+'When you can maintain a high speed',447,null,
+'When large vehicles are in the left and centre lanes',447,null,
+'Temporary traffic lights',448,null,
+'Lower speed limits',448,null,1
+'Wider lanes than normal',448,null,
+'Road humps',448,null,
+'Local speed limit applies',449,null,
+'No waiting on the carriageway',449,null,
+'National speed limit applies',449,null,1
+'No entry for vehicles',449,null,
+'30 mph',450,null,
+'50 mph',450,null,
+'60 mph',450,null,
+'70 mph',450,null,1
+'By hazard warning lines',451,null,
+'By street lighting',451,null,1
+'By pedestrian islands',451,null,
+'By double or single yellow lines',451,null,
+'30 mph',452,null,1
+'40 mph',452,null,
+'50 mph',452,null,
+'60 mph',452,null,
+'Minium speed 30 mph',453,null,
+'End of maximum speed',453,null,
+'End of minimum speed',453,null,1
+'Maximum speed 30 mph',453,null,
+'Follow another vehicle as it overtakes the tractor',454,null,
+'Sound your horn to make the tractor driver pull over',454,null,
+"'Speed past, flashing your light at oncoming traffic'",454,null,
+'Stay behind it if you're in any doubt',454,null,1
+'Estate car',455,null,
+'Milk float',455,null,
+'Delivery van',455,null,
+'Long vehicle',455,null,1
+'Never',456,null,1
+'When it's busy',456,null,
+'In the rush hour',456,null,
+'During daylight hours',456,null,
+'No entry',457,null,
+'Waiting restrictions',457,null,1
+'National speed limit',457,null,
+'School crossing patrol',457,null,
+'When you're in a one-way street',458,null,1
+'When you have you sidelights on',458,null,
+'When you're more than 10 metres (32 feet) from a junction',458,null,
+'When you're under a lamppost',458,null,
+'When you're overtaking only',459,null,
+'When you're overtaking or turning light',459,null,1
+'When you're using cruise control',459,null,
+'When you're turning right only',459,null,
+'Continue in that lane',460,null,1
+'Force your way into the lane you need',460,null,
+'Stop until the area has cleared',460,null,
+'Use arm signals to help you change lane',460,null,
+'Only on the left-hand side',461,null,
+'Overtaking isn't allowed',461,null,
+'Only on the right-hand side',461,null,
+'On either the right or the left',461,null,1
+'Signal left before leaving the roundabout',462,null,1
+'Don't signal at any time',462,null,
+'Signal right when you're approaching the roundabout',462,null,
+'Signal left when you're approaching the roundabout',462,null,
+'Sports car',463,null,
+'Van',463,null,
+'Estate car',463,null,
+'Long vehicle',463,null,1
+'When there are fewer than two vehicles ahead',464,null,
+'When signalled by another road user',464,null,
+'When your exit road is clear',464,null,1
+'When traffic signs direct you',464,null,
+'When oncoming traffic prevents you from turning right',465,null,1
+'When you're in a queue of traffic turning left',465,null,
+'When you're in a queue of traffic going ahead',465,null,
+'When you're on a roundabout',465,null,
+'A motorcyclist',466,null,
+'A pedestrian',466,null,
+'A police officer',466,null,1
+'A bus driver',466,null,
+'Go on quickly before they step onto the crossing',467,null,
+'Stop before you reach the zigzag lines and let them cross',467,null,
+'Be ready to slow down or stop to let them cross',467,null,1
+'Ignore them as they're still on the pavement',467,null,
+'Car drivers and motorcyclists',468,null,
+'Cyclists and pedestrians',468,null,1
+'Bus and lorry drivers',468,null,
+'Tram and train drivers',468,null,
+'Give way to pedestrians on the crossing',469,null,1
+'Move off immediately without any hestation',469,null,
+'Wait for the green light before moving off',469,null,
+'Get ready and go when the continuous amber light shows',469,null,
+'If the line nearest to you is broken',470,null,
+'When there are no yellow lines',470,null,
+'To pick up or set down passengers',470,null,1
+'During daylight hours only',470,null,
+'You'll have a clearer view of any approaching traffic',471,null,1
+'You'll use less fuel because you can stay in a higher gear',471,null,
+'You'll have more time to turn',471,null,
+'You'll be able to turn without stopping',471,null,
+'So that oncoming traffic can see you more clearly',472,null,
+'You may set off car alarms',472,null,
+'There may be delivery lorries on the street',472,null,
+'Children may run out from between the vehicles',472,null,1
+"'Carry on, as you have priority'",473,null,
+'Give way to oncoming traffic',473,null,1
+'Wave oncoming vehicles through',473,null,
+'Accelerate to get past first',473,null,
+'When you're turning right or overtaking',474,null,1
+'When you're passing a side road on the left',474,null,
+'When you're staying at the minimum allowed speed',474,null,
+'When you're travelling at a constant high speed',474,null,
+'The larger vehicle',475,null,
+'No-one has priority',475,null,1
+'The faster vehicle',475,null,
+'The smaller vehicle',475,null,
+'10 metres (32 feet)',476,null,1
+'12 metres (39 feet)',476,null,
+'15 metres (49 feet)',476,null,
+'20 metres (66 feet)',476,null,
+'At or near a bus stop',477,null,
+'In a designated parking space',477,null,1
+'Near the brow of a hill',477,null,
+'On the approach to a level crossing',477,null,
+'Carry on waiting',478,null,1
+'Phone the signal operator',478,null,
+'Edge over the stop line and look for trains',478,null,
+'Park and investigate',478,null,
+'No through road',479,null,
+'End of traffic-calming zone',479,null,
+'Free-parking zone ends',479,null,
+'End of controlled parking zone',479,null,1
+'Obey the speed limit',480,null,1
+"'Obey the limit, but only during rush hour'",480,null,
+'Ignore the displayed limit',480,null,
+'Use your own judgment; the limit is only advisory',480,null,
+'So that you can see further along the road',481,null,
+'So tha you can go at a much faster speed',481,null,
+'So that you can switch to main beam quickly',481,null,
+'So that you can be easily seen by others',481,null,1
+'Turn in because the pedestrians are safe on the pavement',482,null,
+"'Wave at the pedestrians, inviting them to cross the road'",482,null,
+'Wait and gave way to the pedestrians',482,null,1
+'Sound your horn to alert the pedestrians to your presence',482,null,
+'30 mph',483,null,
+'50 mph',483,null,
+'60 mph',483,null,1
+'70 mph',483,null,
+'Park facing the traffic',484,null,
+'Leave parking lights swtiched on',484,null,1
+'Leave dipped headlights switched on',484,null,
+'Park near a street light',484,null,
+'Approaching the end of a motorway',485,null,
+'Approaching a concealed level crossing',485,null,1
+'Approaching a concealed speed-limit sign',485,null,
+'Approaching the end of a dual carriageway',485,null,
+'When signalled to stop by a roadworks supervisor',486,null,
+'When signalled to stop by a traffic officer',486,null,1
+'When signalled to stop by a pedestrian on the hard shoulder',486,null,
+'When signalled to stop by a driver who has broken down',486,null,
+'Signal right on the approach and then left to leave the roundabout',487,null,
+'Signal left after you leave the roundabout and enter the new road',487,null,
+'Signal right on the approach to the roundabout and keep the signal on',487,null,
+'Signal left just after you pass the exit before the one you're going to lake',487,null,1
+'To overtake slow-moving traffic',488,null,
+'When the pavement is very wide',488,null,
+'If there are no pedestrians nearby',488,null,
+'To gain access to a property',488,null,1
+'30 mph',489,null,
+'40 mpn',489,null,
+'50 mph',489,null,1
+'60 mph',489,null,
+'50 mph',490,null,
+'40 mph',490,null,
+'70 mph',490,null,
+'60 mph',490,null,1
+'Park in a bay and not pay',491,null,
+'Park on yellow lines and pay',491,null,
+'Park on yellow lines and not pay',491,null,
+'Park in a bay and pay',491,null,1
+'They may park in the lane',492,null,
+'They may drive in the lane at any time',492,null,
+'They may use the lane when necessary',492,null,
+'They mustn't drive along the lane',492,null,1
+'Kepp just left of the middle of the road',493,null,
+'Keep in the middle of the road',493,null,
+'Swing out to the right just before turning',493,null,
+'Keep well to the left of the road',493,null,1
+'Get out and investigae',494,null,
+'Telephone the signal operator',494,null,
+'Continue to wait',494,null,1
+'Drive across carefully',494,null,
+'Get everyone out of the vehicle immediately',495,null,
+'Stop and reverse back to clear the crossing',495,null,
+'Keep going and clear the crossing',495,null,1
+'Stop immediately and use your hazard warning lights',495,null,
+'Turn into a side road on the right and reverse into the main road',496,null,
+'Make a U-turn in the main road',496,null,
+'Make a 'three-point' turn in the main road',496,null,
+'Turn around in a side road',496,null,1
+'When you're carrying out a manoeuvre that includes reversing',497,null,1
+'When you're moving off on a hill',497,null,
+'When you're testing your brakes',497,null,
+'When you're driving slowly in queuing traffic',497,null,
+'No further than is necessary',498,null,1
+'No more than a car's length',498,null,
+'As far as it takes to reverse around a corner',498,null,
+'The length of a residential street',498,null,
+'Sound your horn',499,null,
+'Rev your engine',499,null,
+'Get out and check',499,null,1
+'Reverse slowly',499,null,
+'Your reverse sensors will beep',500,null,
+'Your view will be restricted',500,null,1
+'Your reversing lights will be hidden',500,null,
+'Your mirrors will need adjusting',500,null,
+'Wait in the box junction if your exit if clear',501,null,1
+'Wait before the junction until it's clear of all traffic',501,null,
+'Drive on; you can't turn right at a box junction',501,null,
+'Drive slowly into the box junction when signalled by oncoming traffic',501,null,
+'After you've completed the manoeuvre',502,null,
+'Just before you begin to manoeuvre',502,null,
+'After you've entered the side road',502,null,
+'When the front of your vehicle swings out',502,null,1
+'In a garage',503,null,1
+'On a busy road',503,null,
+'In a quiet car park',503,null,
+'Near a red route',503,null,
+'To set down and pick up passengers',504,null,1
+'To use a mobile telephone',504,null,
+'To ask for directions',504,null,
+'To load or unload goods',504,null,
+'Use one of these spaces',505,null,
+'Park in one of these spaces but stay with your vehicle',505,null,
+'Use one of the spaces as long as one is kept free',505,null,
+'Wait for a regular parking space to become free',505,null,1
+'Pull into a passing place on your right',506,null,
+'Force the other driver to reverse',506,null,
+'Pull into a passing place if your vehicle is wider',506,null,
+'Pull into a passing place on your left',506,null,1
+'Some time after the vehicle has passed you',507,null,
+'Before the vehicle starts to pass you',507,null,
+'Only if the other driver dips their headlights',507,null,
+'As soon as the vehicle passes you',507,null,1
+'Outside its hours of operation',508,null,1
+'To get to the front of a traffic queue',508,null,
+'You may not use it at any time',508,null,
+'To overtake slow-moving traffic',508,null,
+'By using brake lights',509,null,1
+'By using sidelights',509,null,
+'By using fog lights',509,null,
+'By using interior lights',509,null,
+'Turn around in a quiet side road',510,null,1
+'Drive into a side road and reverse out into the main road',510,null,
+'Ask someone to stop the traffic',510,null,
+'Carry out a U-turn',510,null,
+'Near a police station',511,null,
+'In a quiet road',511,null,
+'On a red route',511,null,
+'In a well-lit area',511,null,1
+'Kepp in that lane until you reach the queue',512,null,
+'Move to the left immediately',512,null,
+'Wait and see which lane is moving faster',512,null,
+'Move to the left in good time',512,null,1
+'You shouldn't drive in the lane unless it's unavoidable',513,null,1
+'There's a reduced speed limit for motor vehicles using the lane',513,null,
+'Cyclists can travel in both directions in that lanes',513,null,
+'The lane must be used by motorcyclists in heavy traffic',513,null,
+'When you have a Blue Badge',514,null,1
+'When you have a wheelchair',514,null,
+'When you have an advanced driver certificate',514,null,
+'When you have an adapted vehicle',514,null,
+'If you're involved in an incident that causes damage or injury',515,null,1
+'At a junction where there are 'give way' lines',515,null,
+'At the end of a one-way street',515,null,
+'Before merging onto a motorway',515,null,
+'They're rectangular with a yellow border',516,null,
+'They're triangular with a blue border',516,null,
+'They're square with a brown border',516,null,
+'They're circular with a red border',516,null,1
+'',517,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/517.A.png',
+'',517,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/517.B.png',
+'',517,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/517.C.png',
+'',517,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/517.D.png',1
+'',518,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/518.A.png',1
+'',518,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/518.B.png',
+'',518,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/518.C.png',
+'',518,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/518.D.png',
+'Maximum speed limit with traffic calming',519,null,1
+'Minimum speed limit with traffic calming',519,null,
+'20 cars only' parking zone',519,null,
+'Only 20 cars allowed at any one time',519,null,
+'New speed limit 20 mph',520,null,
+'No vehicles over 30 tonnes',520,null,
+'Minimum speed limit 30 mph',520,null,
+'End of 20 mph zone',520,null,1
+'No overtaking',521,null,
+'No motor vehicles',521,null,1
+'Clearway (no stopping)',521,null,
+'cars and motorcycles only',521,null,
+'No parking',522,null,
+'No road markings',522,null,
+'No through road',522,null,
+'No entry',522,null,1
+'Bend to the right',523,null,
+'Road on the right closed',523,null,
+'No traffic from the right',523,null,
+'No right turn',523,null,1
+'',524,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/524.A.png',
+'',524,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/524.B.png',
+'',524,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/524.C.png',
+'',524,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/524.D.png',1
+'Route for trams only',525,null,1
+'Route for buses only',525,null,
+'Parking for buses only',525,null,
+'Parking for trams only',525,null,
+'Wide vehicles',526,null,
+'Long vehicles',526,null,
+'high vehicles',526,null,1
+'Heavy vehicles',526,null,
+'',527,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/527.A.png',
+'',527,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/527.B.png',1
+'',527,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/527.C.png',
+'',527,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/527.D.png',
+'You have priority',528,null,
+'No motor vehicles',528,null,
+'Two-way traffic',528,null,
+'No overtaking',528,null,1
+'Waiting restrictions apply',529,null,1
+'Waiting permitted',529,null,
+'National speed limit applies',529,null,
+'Clearway (no stopping)',529,null,
+'End of restricted speed area',530,null,
+'End of restricted parking area',530,null,1
+'End of clearway',530,null,
+'End of cycle route',530,null,
+'',531,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/531.A.png',
+'',531,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/531.B.png',1
+'',531,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/531.C.png',
+'',531,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/531.D.png',
+'National speed limit applies',532,null,
+'Waiting restrictionsm apply',532,null,
+'No stopping',532,null,1
+'No entry',532,null,
+'Distance to parking place ahead',533,null,1
+'Distance to public telephone ahead',533,null,
+'Distance to public house ahead',533,null,
+'Distance to passing place ahead',533,null,
+'Vehicles may not park on the verge or footway',534,null,
+'Vehicles may park on the left-hand side of the road only',534,null,
+'Vehicles may park fully on the verge or footway',534,null,1
+'Vehicles may park on the right-hand side of the road only',534,null,
+'No overtaking allowed',535,null,
+'give priority to oncoming traffic',535,null,1
+'Two-way traffic',535,null,
+'One-way traffic only',535,null,
+'End of two-way road',536,null,
+'Give priority to vehicles coming towards you',536,null,
+'You have priority over vehicles coming towards you',536,null,1
+'Bus lane ahead',536,null,
+'',537,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/537.A.png',
+'',537,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/537.B.png',
+'',537,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/537.C.png',
+'',537,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/537.D.png',1
+'Crossroads',538,null,
+'Give way',538,null,
+'Stop',538,null,1
+'Turn right',538,null,
+'Service area 30 miles ahead',539,null,
+'Maximum speed 30 mph',539,null,
+'Minium speed 30 mph',539,null,1
+'Lay-by 30 miles ahead',539,null,
+'Give away oncoming vehicles',540,null,
+'Approach traffic passes you on both sides',540,null,
+'Turn off at the next available junction',540,null,
+'Pass either side to get to tha same destination',540,null,1
+'Route for trams',541,null,1
+'Give way to trams',541,null,
+'Route for buses',541,null,
+'Give way to buses',541,null,
+'They five temporary directuons during a diversion',542,null,
+'They give directions to car parks',542,null,
+'they give motorway information',542,null,
+'They give mandatory instructions',542,null,1
+'On a dual carriageway',543,null,
+'On a roundabout',543,null,
+'On an urban motorway',543,null,
+'On a one-way street',543,null,1
+'Bus station on the right',544,null,
+'Contraflow bus lane',544,null,1
+'With-flow bus lane',544,null,
+'Give way to buses',544,null,
+'Tourist directions',545,null,1
+'Primary roads',545,null,
+'Motorway routes',545,null,
+'Minor roads',545,null,
+'Tourist attraction',546,null,1
+'Beware of trains',546,null,
+'Level crossing',546,null,
+'Beware of trams',546,null,
+'To give warnings',547,null,1
+'To give information',547,null,
+'To give orders',547,null,
+'To give directions',547,null,
+'Turn left ahead',548,null,
+'T-junction',548,null,1
+'No through road',548,null,
+'Give way',548,null,
+'Multi-exit roundabout',549,null,
+'Risk of ice',549,null,1
+'Six roads converge',549,null,
+'Place of historical interest',549,null,
+'Crossroads',550,null,1
+'Level crossing with gate',550,null,
+'Level crossing without gate',550,null,
+'Ahead only',550,null,
+'Ring road',551,null,
+'Mini-roundabout',551,null,
+'No vehicles',551,null,
+'Roundabout',551,null,1
+'Road narrows',552,null,1
+'Ahead only',552,null,
+'Keep left',552,null,
+'Minimum speed',552,null,
+'Cyclists must dismount',553,null,
+'Cycles aren't allowed',553,null,
+'Cycle route ahead',553,null,1
+'Cycle in single file',553,null,
+'',554,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/554.A.png',1
+'',554,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/554.B.png',
+'',554,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/554.C.png',
+'',554,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/554.D.png',
+'',555,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/555.A.png',
+'',555,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/555.B.png',1
+'',555,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/555.C.png',
+'',555,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/555.D.png',
+'Wait at the barriers',556,null,
+'Wait at the crossroads',556,null,
+'Give way to trams',556,null,1
+'Give way to farm vehicles',556,null,
+'Hump bridge',557,null,
+'Humps in the road',557,null,1
+'Entrance to tunnel',557,null,
+'Soft verges',557,null,
+'',558,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/558.A.png',
+'',558,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/558.B.png',
+'',558,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/558.C.png',
+'',558,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/558.D.png',1
+'End of dual carriageway',559,null,1
+'Tall bridge',559,null,
+'Road narrows',559,null,
+'End of narrow bridge',559,null,
+'Side winds',560,null,1
+'Road noise',560,null,
+'Airport',560,null,
+'Adverse camber',560,null,
+'Slippery road ahead',561,null,
+'Tyres liable to punctures ahead',561,null,
+'Danger ahead',561,null,1
+'Service area ahead',561,null,
+'Overtake the other driver as quickly as possible',562,null,
+'Move to the right to get a better view',562,null,
+'Switch your headlights on before overtaking',562,null,
+'Hold back until you can see clearly ahead',562,null,1
+'Level crossing with gate or barrier',563,null,1
+'Gated road ahead',563,null,
+'Level crossing without gate or barrier',563,null,
+'Cattle girl ahead',563,null,
+'No trams ahead',564,null,
+'Oncoming trams',564,null,
+'Trams crossing ahead',564,null,1
+'Trams only',564,null,
+'Adverse caber',565,null,
+'Steep hill downwards',565,null,1
+'Uneven road',565,null,
+'Steep hill upwards',565,null,
+'Uneven road surface',566,null,
+'Bridge over the road',566,null,
+'Road ahead ends',566,null,
+'Water across the road',566,null,1
+'Turn left for parking area',567,null,
+'No through road on the left',567,null,1
+'No entry for traffic turning left',567,null,
+'Turn left for ferry terminal',567,null,
+'T-junction',568,null,
+'No through road',568,null,1
+'Telephone box ahead',568,null,
+'Toilet ahead',568,null,
+'',569,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/569.A.png',
+'',569,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/569.B.png',
+'',569,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/569.C.png',1
+'',569,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/569.D.png',
+'The right-hand lane ahead is narrow',570,null,
+'Right-hand lane for buses only',570,null,
+'Right-hand lane for turning right',570,null,
+'The right-hand lane is closed',570,null,1
+'Change to the left-hand lane',571,null,
+'Leave at the next exit',571,null,
+'Contraflow system',571,null,1
+'One-way street',571,null,
+'Leave motorway at next exit',572,null,
+'Lane for heavy and slow vehicles',572,null,1
+'All lorries use the hard shoulder',572,null,
+'Rest area for lorries',572,null,
+'You should stop unless turning left',573,null,
+"'Stop, if you're able to brake safely'",573,null,
+'You must stop and wait behind the stop line',573,null,1
+'Proceed with care',573,null,
+'Prepare to go',574,null,
+'Go if the way is clear',574,null,
+'Go if no pedestrians are crossing',574,null,
+'Stop at the stop line',574,null,1
+'When pedestrians are waiting to cross',575,null,
+'When your exit from the junction is blocked',575,null,1
+'When you think the lights may be about to change',575,null,
+'When you intend to turn right',575,null,
+'',576,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/576.A.png',1
+'',576,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/576.B.png',
+'',576,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/576.C.png',
+'',576,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/576.D.png',
+'Traffic lights out of order',577,null,1
+'Amber signal out of order',577,null,
+'Temporary traffic lights ahead',577,null,
+'New traffic lights ahead',577,null,
+'Traffic going straight on',578,null,
+'Traffic turning right',578,null,
+'Nobody',578,null,1
+'Traffic turning left',578,null,
+'Pelican crossings',579,null,
+'Motorway exits',579,null,
+'Zebra crossings',579,null,
+'Level crossings',579,null,1
+'No parking at any time',580,null,1
+'Parking allowed only for a short time',580,null,
+'Slow down to 20 mpn',580,null,
+'Sounding horns isn't allowed',580,null,
+'To pass traffic that's queuing back at a junction',581,null,
+'To pass a car signalling to turn left ahead',581,null,
+'To pass a road maintenance vehicle travelling at 10 mph or less',581,null,1
+'To pass a vehicle that's towing a trailer',581,null,
+'Don't cross the line',582,null,
+'No stopping allowed',582,null,
+'You're approaching a hazard',582,null,1
+'No overtaking allowed',582,null,
+'At traffic lights',583,null,
+'On road humps',583,null,1
+'Near a level crossing',583,null,
+'At a box junction',583,null,
+'',584,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/584.A.png',1
+'',584,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/584.B.png',
+'',584,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/584.C.png',
+'',584,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/584.D.png',
+'Speed on the major road is derestricted',585,null,
+'It's a busy junction',585,null,
+'Visibility along the major road is restricted',585,null,1
+'The junction is on a downhill gradient',585,null,
+'Give way to traffic from the right',586,null,1
+'Traffic from the left has right of way',586,null,
+'You have right of way',586,null,
+'Stop at the line',586,null,
+"'Flash the headlights, indicate left ad point to the left'",587,null,1
+'Overtake and give a slowing down arm signal',587,null,
+"'Use the siren, overtake, cut in front and stop'",587,null,
+"'Pull alongside you, use the siren and ware you to stop'",587,null,
+'Turn left only',588,null,
+'Turn right only',588,null,
+'Continue ahead only',588,null,
+'Stop at the stop line',588,null,1
+'The driver is slowing down',589,null,
+'The driver intends to turn right',589,null,
+'The driver wishes to overtake',589,null,
+'The driver intends to to turn left',589,null,1
+'Change to the lane on your left',590,null,1
+'Leave the motorway at the next exit',590,null,
+'Change to the opposite carriageway',590,null,
+'Pull up on the hard shoulder',590,null,
+'Temporary minium speed 50 mph',591,null,
+'No services for 50 miles',591,null,
+'Obstruction 50 metres (164 feet) ahead',591,null,
+'Temporary maximum speed 50 mph',591,null,1
+'Through traffic to use left lane',592,null,
+'Right-hand lane T-junction only',592,null,
+'Right-hand lane closed ahead',592,null,1
+'11 tonne weight limit',592,null,
+'The distance to the nearest town',593,null,
+'The route number of the road',593,null,
+'The number of the next junction',593,null,1
+'The speed limit on the slip road',593,null,
+'As a high-speed lane',594,null,
+'As an overtaking lane',594,null,1
+'As a right-turn lane',594,null,
+'As an acceleration lane',594,null,
+'Separating the slip road from the motorway',595,null,
+'On the left-hand edge of the road',595,null,
+'On the right-hand edge of the road',595,null,1
+'Separating the lanes',595,null,
+'Separating driving lanes',596,null,
+'between the hard shoulder and the carriageway',596,null,
+'At slip-road entrances and exits',596,null,1
+'Between the carriageway and the central reservation',596,null,
+'Leave the motorway at the next exit',597,null,1
+'Turn left immediately',597,null,
+'Change lane',597,null,
+'Move onto the hard shoulder',597,null,
+'No motor vehicles',598,null,
+'End of motorway',598,null,1
+'No through road',598,null,
+'End of bus lane',598,null,
+'',599,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/599.A.png',
+'',599,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/599.B.png',
+'',599,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/599.C.png',
+'',599,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/599.D.png',1
+'50 mph',600,null,
+'60 mph',600,null,1
+'40 mph',600,null,
+'70 mph',600,null,
+'End of motorway',601,null,
+'End of restriction',601,null,1
+'Lane ends ahead',601,null,
+'Free revovery ends',601,null,
+'A diversion route',602,null,1
+'A picnic area',602,null,
+'A pedestrian zone',602,null,
+'A cycle route',602,null,
+'Compulsory maximum speed limit',603,null,1
+'Advisory maximum spped limit',603,null,
+'Compulsory minimum speed limit',603,null,
+'Advised separation distance',603,null,
+'Maintain the same speed',604,null,
+'Carry on with great care',604,null,1
+'Find another route',604,null,
+'Telephone the police',604,null,
+'Motorcycles only',605,null,
+'No cars',605,null,
+'Cars only',605,null,
+'No motorcycles',605,null,1
+'Move into the right-hand lane',606,null,
+'Stop behind the flashing lights',606,null,
+'Pass the lorry on the left',606,null,1
+'Leave the motorway at the next exit',606,null,
+'Continue in that lane and look for further information',607,null,
+'Don't continue in that lane',607,null,1
+'Pull onto the hard shoulder',607,null,
+'Stop and wait for an instruction to proceed',607,null,
+'To give you right of way',608,null,
+'To attract a friend's attention',608,null,
+'To warn others of your presence',608,null,1
+'To make slower drivers more over',608,null,
+'When another road user poses a danger',609,null,1
+'When the road is blocked by queuing traffic',609,null,
+'When it's used only briefly',609,null,
+'When signalling that you're just arrived',609,null,
+'You can park on the days and times shown',610,null,
+'No parking on the days and times shown',610,null,1
+'No parking at all from Monday to Friday',610,null,
+'End of the urban clearway restrictions',610,null,
+'Quayside or river bank',611,null,1
+'Steep hill downwards',611,null,
+'Uneven road surface',611,null,
+'Road liable to flooding',611,null,
+'',612,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/612.A.png',
+'',612,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/612.B.png',
+'',612,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/612.C.png',1
+'',612,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/612.D.png',
+'Bus lane',613,null,
+'Hazard warning',613,null,1
+'Giveway',613,null,
+'Lane marking',613,null,
+'It separates traffic flowing in opposite directions',614,null,1
+'It marks an area to be used by overtaking motorcyclists',614,null,
+'It's a temporary marking to warn of the roadworks',614,null,
+'It separates the two sides of the dual carriageway',614,null,
+'There's a radar speed trap ahead',615,null,
+'They're giving way to you',615,null,
+'They're warning you of their presence',615,null,1
+'There's a fault with your vehicle',615,null,
+'Cars must stop',616,null,
+'Trams must stop',616,null,1
+'Both trams and cars must stop',616,null,
+'Both trams and cars can continue',616,null,
+'At a railway crossing',617,null,
+'At a mini-roundabout',617,null,1
+'On a motorway',617,null,
+'On a pedestrian crossing',617,null,
+'Turn left at the next junction',618,null,
+'Pull up on the left',618,null,1
+'Stop immediately',618,null,
+'More over to the left',618,null,
+'Red alone',619,null,1
+'Red and amber together',619,null,
+'Green and amber together',619,null,
+'Green alone',619,null,
+'Leave the motorway at the next exit',620,null,1
+'All vehicles use the hard shoulder',620,null,
+'Sharp bend to the left ahead',620,null,
+'Stop: all lanes ahead closed',620,null,
+'Stop only if traffic is approaching',621,null,
+'Stop even if the road is clear',621,null,1
+'Stop only if children are waiting to cross',621,null,
+'Stop only if a red light is showing',621,null,
+'',622,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/622.A.png',
+'',622,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/622.B.png',
+'',622,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/622.C.png',
+'',622,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/622.D.png',1
+'Buses turning',623,null,
+'Ring road',623,null,
+'Mini-roundabout',623,null,1
+'Keep right',623,null,
+'Two-way traffic straight ahead',624,null,
+'Two-way traffic crosses a one-way road',624,null,1
+'Two-way traffic over a bridge',624,null,
+'Two-way traffic crosses a two-day road',624,null,
+'Two-way traffic crosses a one-way road',625,null,
+'Traffic approaching you has priority',625,null,
+'Two-way traffic straight aheada',625,null,1
+'Motorway contraflow system ahead',625,null,
+'Hump bridge',626,null,1
+'Traffic-calming hump',626,null,
+'Low bridge',626,null,
+'Uneven road',626,null,
+'',627,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/627.A.png',
+'',627,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/627.B.png',
+'',627,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/627.C.png',1
+'',627,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/627.D.png',
+'Direction to park-and-ripe car park',628,null,1
+'No parking for buses or coaches',628,null,
+'Direction to bus and coach park',628,null,
+'Parking area for cars and coaches',628,null,
+'Pass the lights if the road is clear',629,null,
+'Take care because there's a fault with the lights',629,null,
+'Wait for the green light',629,null,1
+'Stop because the lights are changing to red',629,null,
+'Phone the signal operator',630,null,
+'Alert drivers behind you',630,null,
+'Wait',630,null,1
+'Proceed with caution',630,null,
+'Direction to an emergency pedestrian exit',631,null,1
+'Beware of pedestrians: no footpath ahead',631,null,
+'No access for pedestrians',631,null,
+'Beware of pedestrians crossing ahead',631,null,
+'',632,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/632.A.png',
+'',632,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/632.B.png',1
+'',632,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/632.C.png',
+'',632,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/632.D.png',
+'With-flow bus and cycle lane',633,null,1
+'Contraflow bus and cycle lane',633,null,
+'No buses and cycles allowed',633,null,
+'No waiting for buses and cycles',633,null,
+'',634,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/634.A.png',1
+'',634,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/634.B.png',
+'',634,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/634.C.png',
+'',634,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/634.D.png',
+'School crossing patrol',635,null,
+'No pedestrians allowed',635,null,
+'Pedestrian zone - no vehicle',635,null,
+'Zebra crossing ahead',635,null,1
+'',636,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/636.A.png',
+'',636,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/636.B.png',1
+'',636,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/636.C.png',
+'',636,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/636.D.png',
+'',637,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/637.A.png',
+'',637,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/637.B.png',
+'',637,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/637.C.png',1
+'',637,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/637.D.png',
+'',638,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/638.A.png',
+'',638,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/638.B.png',1
+'',638,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/638.C.png',
+'',638,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/638.D.png',
+'This is a single-track road',639,null,
+'You can't stop on this road',639,null,
+'Only one lane is in use',639,null,
+'All traffic is going one way',639,null,1
+'Red and amber',640,null,1
+'Green alone',640,null,
+'Amber alone',640,null,
+'Green and amber',640,null,
+'Low bridge ahead',641,null,
+'Tunnel ahead',641,null,1
+'Ancient monument ahead',641,null,
+'Traffic danger spot ahead',641,null,
+'The edge of the carriageway',642,null,1
+'The approach to a hazard',642,null,
+'No parking',642,null,
+'No overtaking',642,null,
+'Entrance on the left',643,null,
+'All vehicles turn left',643,null,
+'Return to your side of the road',643,null,1
+'Road bends to the left',643,null,
+'',644,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/644.A.png',
+'',644,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/644.B.png',
+'',644,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/644.C.png',1
+'',644,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/644.D.png',
+'Move out and accelerate hard',645,null,
+'Wait until the vehicle starts to turn in',645,null,1
+'Pull out before the vehicle reaches the junction',645,null,
+'Move out slowly',645,null,
+'Instead of sounding the horn in a built-up area between 11.30 pm and 7.00 am',646,null,
+"'On a motorway or unrestricted dual carriageway, to warn of a hazard ahead'",646,null,1
+"'On rural routes, after a sign warning of animals'",646,null,
+"'On the approach to toucan crossings, where cyclists are waiting to cross'",646,null,
+'To avoid flattening the battery',647,null,
+'To avoid misleading other road users',647,null,1
+'To avoid misleading other road users',647,null,
+'To avoid damage to the indicator relay',647,null,
+'As you're passing or just after the junction',648,null,1
+'Just before you reach the junction',648,null,
+'Well before you reach the junction',648,null,
+'It would be better not to signal at all',648,null,
+'Three years after the date it was issued',649,null,
+"'10,000 miles'",649,null,
+'One year after the date it was issued',649,null,1
+"'30,000 miles'",649,null,
+'A document issued before you receive your driving licence',650,null,
+'A document issued before you receive your insurance certificate',650,null,1
+'A document issued before you receive your registration document',650,null,
+'A document issued before you receive your MOT certificate',650,null,
+'Retake only your theory test',651,null,
+'Retake your theory and practical tests',651,null,1
+'Retake only your practical test',651,null,
+'Reapply for your full licence immediately',651,null,
+"'Until the vehicle is taxed, sold or scrapped'",652,null,1
+'Until the vehicle is insured and MOT'd',652,null,
+'Until the vehicle is repaired or modified',652,null,
+'until the vehicle is used on the road',652,null,
+'A notification to tell DVSA that a vehicle doesn't have a current MOT',653,null,
+'Information kept by the police about the owner of a vehicle',653,null,
+'A notification to tell DVLA that a vehicle isn't being used on the road',653,null,1
+'Information held by insurance companies to check a vehicle is insured',653,null,
+'Unlimited',654,null,1
+'500',654,null,
+'1000',654,null,
+'5000',654,null,
+'The registered vehicle keeper',655,null,1
+'The vehicle manufacturer',655,null,
+'Your insurance company',655,null,
+'The licensing authority',655,null,
+'When making a SORN',656,null,
+'When buying or selling a vehicle',656,null,
+'When a police officer asks you for it',656,null,1
+'When your vehicle is having an MOT test',656,null,
+'Before you can make s SORN',657,null,
+'Before you can sell the vehicle',657,null,
+'Before you can scrap the vehicle',657,null,
+'Before you can tax the vehicle',657,null,1
+'An appropriate driving licence',658,null,1
+'Breakdown cover',658,null,
+'Proof of your identity',658,null,
+'A vehicle handbook',658,null,
+'Valid insurance',659,null,1
+'The vehicle's chassis number',659,null,
+'The handbook',659,null,
+'A valid driving lecence',659,null,
+'5 days',660,null,
+'7 days',660,null,1
+'14 days',660,null,
+'21 days',660,null,
+'When you pass your driving test',661,null,
+'When you move house',661,null,1
+'When your vehicle needs an MOT',661,null,
+'When you have a collision',661,null,
+'That the vehicle owner has third-party insurance cover',662,null,
+'That your own vehicle has insurance cover',662,null,
+'That the vehicle is insured fr your use',662,null,1
+'That the insurance documents are in the vehicle',662,null,
+'The vehicle service record',663,null,
+'The vehicle insurance',663,null,1
+'The vehicle tax',663,null,
+'The vehicle registration document',663,null,
+'They must display green L plates',664,null,
+'They must have a new photograph taken for their full licence',664,null,
+'They must be accompanied on their first motorway journey',664,null,
+'They must have valid motor insurance',664,null,1
+'Damage to your vehicle',665,null,
+'Fire damage to your vehicle',665,null,
+'Flood damage to your vehicle',665,null,
+'Damage to other vehicles',665,null,1
+'The driver of the vehicle',666,null,
+'The registered keeper of the vehicle',666,null,1
+'The car dealer',666,null,
+'The Driver and Vehicle Licensing Agency (DVLA)',666,null,
+'The registered keeper',667,null,1
+'The type of insurance cover',667,null,
+'The service history details',667,null,
+'The date ò the MOT',667,null,
+'When you get a parking ticket',668,null,
+'When you change your vehicle',668,null,1
+'When you use your vehicle for work',668,null,
+'When your vehicle's insurance is due',668,null,
+'When your health affects your driving',669,null,1
+'When you have to work abroad',669,null,
+'When you lend your vehicle to someone',669,null,
+'When your vehicle needs an MOT certificate',669,null,
+'When you're under 25 years old',670,null,
+'When you don't wear glasses',670,null,
+'When you pass the driving test first time',670,null,
+'When you complete the Pass Plus scheme',670,null,1
+'To have a car with dual controls',671,null,
+'To be at least 21 years old',671,null,1
+'To be an approved driving instructor',671,null,
+'To hold an advanced driving certificate',671,null,
+'Up to seven days after the old cartificate has run out',672,null,
+'When driving to an MOT contre to arrange an appointment',672,null,
+'When driving the car with the owner's permission',672,null,
+'When driving to an appointment at an MOT centre',672,null,1
+'When it's one year old',673,null,
+'When it's three years old',673,null,1
+'When it's five years old',673,null,
+'When it's seven years old',673,null,
+'Damage to your vehicle',674,null,
+'Damage to other vehicle',674,null,1
+'Injury to yourself',674,null,
+'All damage and injury',674,null,
+"'Third party, fire and theft'",675,null,
+'Comprehensive',675,null,
+'Third party only',675,null,1
+'Personal injury cover',675,null,
+'The insurance company will pay the first £500 of any claim',676,null,
+'You'll be paid £500 if you don't claim within one year',676,null,
+'Your vehicle is insured for a value of £500 if it's stolen',676,null,
+'You'll have to pay the first £500 of the cost of any claim',676,null,1
+'When stopped and temporarily obstructing traffic',677,null,1
+'When travelling during darkness without headlights',677,null,
+'When parked on double yellow lines to visit a shop',677,null,
+'When travelling slowly because you're lost',677,null,
+'Pull up very close to the vehicle in front to save space',678,null,
+"'Ignore any message signs, as they're never up to date'",678,null,
+'Keep a safe distance from the vehicle in front',678,null,1
+'Make a U-turn and find another route',678,null,
+'Walk them around and keep them talking',679,null,
+'Dab the wound',679,null,
+'Get them a drink',679,null,
+'Apply pressure over the wound',679,null,1
+'Take photographs of the scene',680,null,
+'Check that they're breathing normally ',680,null,1
+'Move them to somewhere more comfortable',680,null,
+'Splash their face with cool water',680,null,
+'10 times per minute',681,null,
+'120 times per minute',681,null,1
+'60 times per minute',681,null,
+'240 times per minute',681,null,
+'Flushed complexion',682,null,
+'Warm dry skin',682,null,
+'Slow pulse',682,null,
+'Rapid shallow breathing',682,null,1
+'Press firmly between their shoulders',683,null,
+'Place their arms by their side',683,null,
+'Give them a hot sweet drink',683,null,
+'Check their aiway remains open',683,null,1
+'Remove their safety helmet',684,null,
+'Seek medical assistance',684,null,1
+'Move the person off the road',684,null,
+'Remove their leather jacket',684,null,
+'Go to the next emergency telephone and report the hazard',685,null,1
+'Catch up with the lorry and try to get the driver's attention',685,null,
+'Stop close to the box until the police arrive',685,null,
+"'Pull over to the hard shoulder, then remove the box'",685,null,
+'Hazard warning lines',686,null,
+'Other drivers flashing their lights',686,null,
+'Variable message signs',686,null,1
+'Areas with hatch markings',686,null,
+'1 to 2 centimetres',687,null,
+'5 to 6 centimetres',687,null,1
+'10 to 15 centimetres',687,null,
+'15 to 20 centimetres',687,null,
+'Make sure that an ambulance has been called',688,null,1
+'Stop other cars and ask the drivers for help',688,null,
+'Try and get people who are injured to drink something',688,null,
+'Move the people who are injured clear of their vehicles',688,null,
+'Only when it's essential',689,null,1
+'Always straight away',689,null,
+'Only when the motorcyclist asks',689,null,
+"'Always, unless they're in shock'",689,null,
+'Check whether they're breathing normally',690,null,1
+'Check whether they're bleeding',690,null,
+'Check whether they have any broken bones',690,null,
+'Check whether they have any bruising',690,null,
+'Whether their vehicle is insured',691,null,
+'Whether they have any allergies',691,null,
+'Whether they're comfortable',691,null,
+'Whether their airway is open ',691,null,1
+'Keep them warm and comfortable',692,null,1
+'Give them something to eat',692,null,
+'Keep them on the move by walking them around',692,null,
+'Give them a warm drink',692,null,
+'Give them a drink',693,null,
+'Reassure them confidently',693,null,1
+'Ask who caused the incident',693,null,
+'Offer them a cigarette',693,null,
+'Move the rider out of the road',694,null,
+'Warn other traffic',694,null,1
+'Clear the road of debris',694,null,
+'Give the rider ressurance',694,null,
+'Find their parents and explain what's happening',695,null,
+'Open their airway and begin CPR',695,null,1
+'Put them in the recovery position and slap their back',695,null,
+'Talk to them confidently until an ambulance arrives',695,null,
+'Put their arms across their chest',696,null,
+'Shake them firmly',696,null,
+'Roll them onto their side',696,null,
+'Open their airway ',696,null,1
+'Apply lotions to the injury',697,null,
+'Burst any blisters',697,null,
+'Remove anything sticking to the burns',697,null,
+"'Douse the burns with clean, cool water'",697,null,1
+'Dab the wound to stop the bleeding',698,null,
+'Keep the casualty's legs flat on the ground',698,null,
+'Give them a warm drink',698,null,
+'Apply firm pressure over the wound',698,null,1
+'When an ambulance is on its way',699,null,
+'When bystanders tell you to move them',699,null,
+'When there's a risk of further danger',699,null,1
+'When bystanders offer to help you',699,null,
+'Move them away from the vehicles',700,null,
+'Ask them how it happened',700,null,
+'Give them something to eat',700,null,
+'Keep them where they are',700,null,1
+'',701,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/701.A.png',
+'',701,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/701.B.png',1
+'',701,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/701.C.png',
+'',701,'https://dts-resources.s3.ap-southeast-1.amazonaws.com/question-images/701.D.png',
+'Your vehicle registration document',702,null,
+'Your driving licence',702,null,1
+'Your theory test certificate',702,null,
+'Your vehicle service record',702,null,
+'Only as a last resort',703,null,
+'As soon as possible',703,null,1
+'After you've woken them up',703,null,
+'After checking for broken bones',703,null,
+'Treat the person for shock',704,null,
+'Warn other traffic',704,null,1
+'Place them in the recovery position',704,null,
+'Make sure the injured person is kept warm',704,null,
+'code Keep their head tilted forwards as far as possible',705,null,
+'Follow the DR ABC ',705,null,1
+'Raise their legs to help with circulation',705,null,
+'Try to give them something to drink',705,null,
+'Reassure them confidently',706,null,1
+'Offer them a cigarette',706,null,
+'Give them a warm drink',706,null,
+'Offer them some food',706,null,
+'They might not want you to remove it',707,null,
+'Removing it could make any injuries worse',707,null,1
+'Removing it could let them get cold',707,null,
+'You could scratch the helmet as you remove it',707,null,
+'When a vehicle is following too closely',708,null,
+'When you slow down quickly because of danger ahead',708,null,1
+'When you're being towed by another vehicle',708,null,
+'When you're riding on the hard shoulder',708,null,
+'5 metres (16 feet)',709,null,
+'25 metres (82 feet)',709,null,
+'45 metres (147 feet)',709,null,1
+'100 metres (328 feet)',709,null,
+'Tell drivers behind what's happened',710,null,
+'Leave your vehicle and get everyone clear',710,null,1
+'Walk down the track and signal the next train',710,null,
+'Stay in your car until you're told to move',710,null,
+'Pull on the parking brake',711,null,
+'Brake as quickly as possible',711,null,
+'Pull up slowly at the side of the road',711,null,1
+'Continue on at a normal speed',711,null,
+'Drive slowly to the next service area to get assistance',712,null,
+'Pull up on the hard shoulder or in an emergency refuge area. Change the wheel as quickly as possible',712,null,
+'Pull up on the hard shoulder or in an emergency refuge area and call for assistance',712,null,1
+'Switch on your hazard warning lights. Stop in your lane',712,null,
+'Get out of the car and clear of the crossing',713,null,1
+'Run down the track to warn the signal operator',713,null,
+'Carry on trying to restart the engine',713,null,
+'Push the vehicle clear of the crossing',713,null,
+'Switch off your radio',714,null,
+'Take off your sunglasses',714,null,1
+'Close your sunroof',714,null,
+'Switch on your windscreen wipers',714,null,
+'Sidelights',715,null,
+'Front spotlights',715,null,
+'Dipped headlights ',715,null,1
+'Rear fog lights',715,null,
+'Keep water levels above maximum',716,null,
+'Check out any strong smell of fuel',716,null,1
+'Avoid driving with a full tank of fuel',716,null,
+'Use fuel additives',716,null,
+'Stop at the next emergency telephone and report the incident',717,null,1
+'Stop on the motorway and switch on hazard warning lights while you pick it up',717,null,
+'Walk back up the motorway to pick it up',717,null,
+'Pull up on the hard shoulder and wave traffic down',717,null,
+'Continue if the engine sounds all right',718,null,
+'Hope that it's just a temporary electrical fault',718,null,
+'Deal with the problem when there's more time',718,null,
+'Check out the problem quickly and safely',718,null,1
+'Stay in your vehicle and wait for the police',719,null,
+'Stand in the lane behind your vehicle to warn others',719,null,
+'Stand in front of your vehicle to warn oncoming drivers',719,null,
+"'Switch on hazard warning lights, then go and call for help'",719,null,1
+"'Leave it where it is, with the engine running'",720,null,
+"'Pull up, then walk to an emergency telephone'",720,null,
+'Park it away from the carriageway',720,null,
+'Drive it out of the tunnel if it's safe to do so',720,null,1
+'Get everyone out of the vehicle and clear of the crossing',721,null,1
+'Telephone your vehicle recovery service to move it',721,null,
+'Walk along the track to give warning to any approaching trains',721,null,
+'Try to push the vehicle clear of the crossing as soon as possible',721,null,
+'Stop only if someone waves at you',722,null,
+'Call the emergency services',722,null,
+'Stop at the scene of the incident',722,null,1
+'Call your insurance company',722,null,
+'Your occupation and reason for your journey',723,null,
+"'Your name, address, and vehicle registration number '",723,null,1
+'Your national insurance number',723,null,
+'Your internet service provider',723,null,
+'Report the incident to the police within 24 hours',724,null,1
+'Go back to tell the house owner the next day',724,null,
+'Report the incident to your insurance company when you get home',724,null,
+'Find someone in the area to tell them about it immediately',724,null,
+'You mustn't exceed 50 mph',725,null,
+'You mustn't overtake',725,null,
+'You must have a stabiliser fitted',725,null,
+'You mustn't use the right-hand lane',725,null,1
+'Ease off the accelerator to reduce your speed',726,null,1
+'Let go of the steering wheel and let it correct itself',726,null,
+'Brake hard and hold the pedal down',726,null,
+'Accelerate until it stabilises',726,null,
+'When the roads are slippery',727,null,
+'When the vehicle is fitted with anti-lock brakes',727,null,
+'When the tyre tread is worn below 2 mm',727,null,
+'When carrying a heavy load',727,null,1
+'It will improve the road holding',728,null,
+'It will reduce the stopping distance',728,null,
+'It will make the steering lighter',728,null,
+'It will reduce stability',728,null,1
+'The vehicle's gearbox',729,null,
+'The vehicle's ventilation',729,null,
+'The vehicle's handling',729,null,1
+'The vehicle's battery',729,null,
+'The driver of the vehicle',730,null,1
+'The owner of the items being carried',730,null,
+'The person who loaded the vehicle',730,null,
+'The licensing authority',730,null,
+'A jockey wheel fitted to the tow bar',731,null,
+'Power steering fitted to the towing vehicle',731,null,
+'Anti-lock brakes fitted to the towing vehicle',731,null,
+'A stabiliser fitted to the tow bar',731,null,1
+"'Yes, if they're over 14'",732,null,
+"'No, not at any time'",732,null,1
+'Only if all the seats in the towing vehicle are full',732,null,
+'Only if a stabiliser is fitted',732,null,
+'Stabiliser ',733,null,
+'Jockey wheel',733,null,
+'Corner steadies',733,null,
+'Breakaway cable',733,null,1
+'In the vehicle handbook',734,null,1
+'In The Highway Code',734,null,
+'In your vehicle registration certificate',734,null,
+'In your licence documents',734,null,
+'Securely fastened with suitable restraints',735,null,1
+'Loaded towards the rear of the vehicle',735,null,
+'Visible in your exterior mirror',735,null,
+'Covered with plastic sheeting',735,null,
+'A child seat',736,null,1
+'An adult holding a child',736,null,
+'An adult seat belt',736,null,
+'An adult lap belt',736,null,
